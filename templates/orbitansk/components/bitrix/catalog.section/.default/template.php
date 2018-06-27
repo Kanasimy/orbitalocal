@@ -14,6 +14,7 @@ use \Bitrix\Main\Localization\Loc;
 
 $this->setFrameMode(true);
 $this->addExternalCss('/bitrix/css/main/bootstrap.css');
+$this->addExternalJs($templateFolder.'/pageNav.js');
 
 if (!empty($arResult['NAV_RESULT']))
 {
@@ -745,7 +746,7 @@ if($countItem>1)
     { ?>
         <div class="str">
             <span>На страницу:</span>
-            <select name="pageNav">
+            <select id="pageNav">
                 <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 20) echo'selected="selected"';?> value="?count=20">по 20</option>
                 <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 40) echo'selected="selected"';?> value="?count=40">по 40</option>
                 <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 60) echo'selected="selected"';?> value="?count=60">по 60</option>

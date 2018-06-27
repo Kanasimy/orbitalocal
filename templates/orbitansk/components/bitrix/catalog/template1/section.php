@@ -13,8 +13,6 @@
 use Bitrix\Main\Loader;
 use Bitrix\Main\ModuleManager;
 
-$this->addExternalJs($templateFolder.'/pageNav.js');
-
 if(isset($_GET["count"]))
 {
     $_SESSION['PAGE_ELEMENT_COUNT'] = $_GET["count"];
