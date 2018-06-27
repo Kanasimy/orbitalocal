@@ -1,0 +1,14 @@
+.bx-soa-section-hide {
+    display: none;
+}
+
+.bx-soa-more {
+    border-top: 0px solid #e5e5e5 !important;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.bx-sls .dropdown-block {
+    min-height: 34px !important;
+}
+
