@@ -744,16 +744,20 @@ if ($showLazyLoad)
 }
 if($countItem>1)
     { ?>
-        <div class="str">
-            <span>На страницу:</span>
-            <select id="pageNav">
-                <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 20) echo'selected="selected"';?> value="?count=20">по 20</option>
-                <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 40) echo'selected="selected"';?> value="?count=40">по 40</option>
-                <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 60) echo'selected="selected"';?> value="?count=60">по 60</option>
-                <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 100) echo'selected="selected"';?> value="?count=100">по 100</option>
-            </select>
+        <div class="col-md-4">
+            <div class="pageNav">
+                <span>На страницу:</span>
+                <select id="pageNav">
+                    <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 20) echo'selected="selected"';?> value="?count=20">по 20</option>
+                    <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 40) echo'selected="selected"';?> value="?count=40">по 40</option>
+                    <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 60) echo'selected="selected"';?> value="?count=60">по 60</option>
+                    <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 100) echo'selected="selected"';?> value="?count=100">по 100</option>
+                </select>
+            </div>
         </div>
-        <button id="buyAllBottom" class="btn catalog-header__btn btn-default">Выбранное в корзину</button>
+        <div class="col-md-offset-4 col-md-4">
+            <button id="buyAllBottom" class="btn catalog-header__btn btn-default">Выбранное в корзину</button>
+        </div>
     <?
     }
     ?>

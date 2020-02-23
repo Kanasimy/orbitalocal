@@ -113,20 +113,25 @@
                             </form>
                         <?else:?>
                             <button  class="btn btn-default" type="submit" formaction="<?echo $arElement["BUY_URL"]?>">
-                                <?echo GetMessage("CATALOG_BUY")?>&nbsp;|&nbsp;
+                                <?echo GetMessage("CATALOG_BUY")?>
+                                <?
+                                $productID=$arElement['ID'];
+                                $renewal= 'N';
+                                $arPrice = CCatalogProduct::GetOptimalPrice($productID, 1, $USER->GetUserGroupArray(), $renewal);
 
-                                <?foreach($arElement["PRICES"] as $code=>$arPrice):?>
-                                    <!--вывод цены-->
-                                    <?if($arPrice["CAN_ACCESS"]):?>
-                                        <span class="price">
-                                <?if($arPrice["DISCOUNT_VALUE"] < $arPrice["VALUE"]):?>
-                                    <?=$arPrice["PRINT_VALUE"]?><?=$arPrice["PRINT_DISCOUNT_VALUE"]?><
-                                <?else:?>
-                                    <?=$arPrice["PRINT_VALUE"]?>
-                                <?endif?>
-                            </span>
-                                    <?endif;?>
-                                <?endforeach;?>
+                                if (!$arPrice || count($arPrice) <= 0) {
+                                    if ($nearestQuantity = CCatalogProduct::GetNearestQuantityPrice($productID, 1, $USER->GetUserGroupArray())) {
+                                        $quantity = $nearestQuantity;
+                                        $arPrice = CCatalogProduct::GetOptimalPrice($productID, 1, $USER->GetUserGroupArray(), $renewal);
+                                    }
+                                }?>
+
+                                <!--вывод цены-->
+
+                                <span class="price">
+                                | <? print_r($arPrice[RESULT_PRICE][DISCOUNT_PRICE])?> р
+                                </span>
+
                                 <?if(is_array($arElement["PRICE_MATRIX"])):?>
                                     <?if(count($arElement["PRICE_MATRIX"]["ROWS"]) >= 1 && ($arElement["PRICE_MATRIX"]["ROWS"][0]["QUANTITY_FROM"] > 0 || $arElement["PRICE_MATRIX"]["ROWS"][0]["QUANTITY_TO"] > 0)):?>
                                         <?=GetMessage("CATALOG_QUANTITY") ?>

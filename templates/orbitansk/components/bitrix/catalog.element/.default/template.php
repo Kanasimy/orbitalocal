@@ -174,7 +174,19 @@ if (!empty($arParams['LABEL_PROP_POSITION']))
                             </svg>
                             <?=$name?>
                         </h1>
-                        <div class="product-header__article"><?=$arResult['DISPLAY_PROPERTIES']['CML2_ARTICLE']['NAME']?>: <?=$arResult['DISPLAY_PROPERTIES']['CML2_ARTICLE']['VALUE']?></div>
+                        <div class="product-header__article"><?
+                            if ($arResult['DISPLAY_PROPERTIES']['CML2_ARTICLE']['VALUE']) {
+                                ?><span>
+                                Код: <strong><?= $arResult['DISPLAY_PROPERTIES']['CML2_ARTICLE']['VALUE'] ?></strong></span>&nbsp;|&nbsp;
+                            <? }
+                            if ($arResult['PROPERTIES']['CML2_TRAITS']['VALUE']['5']) { ?><span>
+                                Артикул: <?= $arResult['PROPERTIES']['CML2_TRAITS']['VALUE']['5'] ?></span>&nbsp;|&nbsp;<?
+                            } ?>
+                            <? if ($arResult['PROPERTIES']['CML2_BAR_CODE']['VALUE']) { ?><span>
+                                Штрих-Код: <?= $arResult['PROPERTIES']['CML2_BAR_CODE']['VALUE'] ?></span><?
+                            } ?>
+                        </div>
+
                     </div>
 
 				</div>

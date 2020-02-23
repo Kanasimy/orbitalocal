@@ -54,7 +54,7 @@ $strTitle = "";
 	}
 
 	echo "\n",str_repeat("\t", $arSection["DEPTH_LEVEL"]-$TOP_DEPTH);
-	?><div class="col-md-4 col-sm-6">
+	?><div class="col-md-3 col-sm-6">
 			<div class="catalog-top__item" id="<?=$arSection["CODE"]?>">
 				<svg class="icon-catalog icon-<?=$arSection["CODE"]?>">
 					<use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#<?=$arSection["CODE"]?>"></use>

@@ -78,6 +78,10 @@ if ($isFilter)
 ?>
 <div class="row">
 <?
+//1811261226 Show only aviable products
+global ${$arParams["FILTER_NAME"]};
+${$arParams["FILTER_NAME"]}['>CATALOG_QUANTITY'] = 0;
+//1811261226 Show only aviable products
 if ($isVerticalFilter)
 	include($_SERVER["DOCUMENT_ROOT"]."/".$this->GetFolder()."/section_vertical.php");
 else

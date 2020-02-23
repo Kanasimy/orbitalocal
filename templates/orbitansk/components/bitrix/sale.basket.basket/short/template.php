@@ -126,8 +126,8 @@ if (strlen($arResult["ERROR_MESSAGE"]) <= 0)
 		unset($headerName, $data);
 	}
 	unset($id);
-
 	?>
+
 		<form method="post" action="<?=POST_FORM_ACTION_URI?>" name="basket_form" id="basket_form">
 			<div id="basket_form_container">
 				<div class="bx_ordercart <?=$templateData['TEMPLATE_CLASS']; ?>">

@@ -743,6 +743,16 @@ if ($showLazyLoad)
 }
 if($countItem>1)
     { ?>
+        <div class="str">
+            <span>На страницу:</span>
+            <select name="forma" on change="location = this.options[this.selectedIndex].value;">
+                <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 20) echo'selected="selected"';?> value="?count=6">по 20</option>
+                <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 40) echo'selected="selected"';?> value="?count=12">по 40</option>
+                <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 60) echo'selected="selected"';?> value="?count=18">по 60</option>
+                <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 100) echo'selected="selected"';?> value="?count=24">по 100</option>
+            </select>
+        </div>
+
         <button id="buyAllBottom" class="btn catalog-header__btn btn-default">Выбранное в корзину</button>
     <?
     }

@@ -14,6 +14,7 @@ IncludeTemplateLangFile(__FILE__);
     <title><?$APPLICATION->ShowTitle()?></title>
 	<?
 	$APPLICATION->ShowHead();
+    $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH.'/styles/banner.css');
 	$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH.'/styles/main.css');
 	$APPLICATION->SetAdditionalCSS('https://fonts.googleapis.com/css?family=Roboto:400,700|Ubuntu+Condensed');
 	?>
@@ -119,8 +120,8 @@ IncludeTemplateLangFile(__FILE__);
 	"top", 
 	array(
 		"ROOT_MENU_TYPE" => "top",
-		"MENU_CACHE_TYPE" => "A",
-		"MENU_CACHE_TIME" => "3600",
+		"MENU_CACHE_TYPE" => "Y",
+		"MENU_CACHE_TIME" => "36000",
 		"MENU_CACHE_USE_GROUPS" => "Y",
 		"MENU_CACHE_GET_VARS" => array(
 		),
@@ -135,21 +136,20 @@ IncludeTemplateLangFile(__FILE__);
 );?>
             </div>
         </div>
+
+    <?$dir=explode('/', $APPLICATION->GetCurDir());
+    if(CSite::InDir('/index.php')){?>
     <!--Banner-->
-    <?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
-	"AREA_FILE_SHOW" => "page",
-		"PATH" => SITE_TEMPLATE_PATH."/include/home-banner.php",
-		"EDIT_TEMPLATE" => "",
-		"COMPONENT_TEMPLATE" => ".default",
-		"COMPOSITE_FRAME_MODE" => "A",
-		"COMPOSITE_FRAME_TYPE" => "STATIC",
-		"AREA_FILE_SUFFIX" => "inc"
-	),
-	false,
-	array(
-	"ACTIVE_COMPONENT" => "Y"
-	)
-);?>
+    <?$APPLICATION->IncludeComponent(
+        "bitrix:main.include",
+        "",
+        Array(
+            "AREA_FILE_SHOW" => "file",
+            "PATH" => SITE_TEMPLATE_PATH."/include/banner.php",
+            "EDIT_TEMPLATE" => ""
+        ),
+        false
+    ); }?>
     <!--End Banner-->
 </header>
 <section class="content">

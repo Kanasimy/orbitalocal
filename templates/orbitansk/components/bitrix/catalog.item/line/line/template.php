@@ -21,6 +21,22 @@ use \Bitrix\Main\Localization\Loc;
  * @var CatalogSectionComponent $component
  */
 
+$quantity=1;
+$productID=$item['ID'];
+$renewal= 'N';
+
+$arPrice = CCatalogProduct::GetOptimalPrice($productID, $quantity, $USER->GetUserGroupArray(), $renewal);
+if (!$arPrice || count($arPrice) <= 0) {
+    if ($nearestQuantity = CCatalogProduct::GetNearestQuantityPrice($productID, $quantity, $USER->GetUserGroupArray())) {
+        $quantity = $nearestQuantity;
+        $arPrice = CCatalogProduct::GetOptimalPrice($productID, $quantity, $USER->GetUserGroupArray(), $renewal);
+    }
+}
+echo "<pre style='display: none'>";
+print_r($arPrice);
+echo "</pre>";
+
+
 if ($haveOffers)
 {
 	$showDisplayProps = !empty($item['DISPLAY_PROPERTIES']);
@@ -46,10 +62,11 @@ if($timeCreateSection>$threeDay) {
 $db = CIBlockElement::GetList(array(), array('IBLOCK_ID'=>$arResult['IBLOCK_ID'], 'ID'=>$item['ID']), false, false, array('SHOW_COUNTER'));
 if ($i = $db->Fetch())
 	/*Количество просмотров";*/
-	if($i['SHOW_COUNTER']>300){
+    if($i['SHOW_COUNTER']>300 && !$price['PERCENT']>0){
 		$item['STIKER']="popular";
 	}
 ?>
+<pre style="display:none">+++<?print_r($USER->GetUserGroupArray())?></pre>
 <div class="col-sm-3">
 	<div class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
 		<div class="catalog-item__checkbox">
@@ -165,9 +182,6 @@ if ($i = $db->Fetch())
 		<div class="col-sm-8">
 			<div class="catalog-item__description">
 				<h5><a class="catalog-item__header" href="<?=$item['DETAIL_PAGE_URL']?>" title="<?=$productTitle?>"><?=$productTitle?></a></h5>
-				<span class="catalog-item__article">
-					<?=$item['DISPLAY_PROPERTIES']['CML2_ARTICLE']['NAME']?>: <?=$item['DISPLAY_PROPERTIES']['CML2_ARTICLE']['VALUE']?>
-               </span>
 			</div>
 		</div>
 		<div class="col-sm-4">
@@ -336,16 +350,23 @@ if ($i = $db->Fetch())
 		</div>
 	</div>
 	<div class="row">
+        <pre style="display: none">price: <?php print_r($price)?></pre>
 		<div class="catalog-item__select">
 			<div class="col-sm-4 col-xs-6">
-				<div class="catalog-item__short-info">
-					<div class="catalog-item__short-info_in-box">
-						в коробке
-						<div class="catalog-item__short-info_value">
-							<?=$item['DISPLAY_PROPERTIES']['CML2_TRAITS']['VALUE'][4] ?> шт.
-						</div>
-					</div>
-				</div>
+                <div class="catalog-item__short-info">
+                <span class="catalog-item__article">
+					 </span>
+                    <div class="catalog-item__kod">
+                        <? if($item['DISPLAY_PROPERTIES']['CML2_ARTICLE']['VALUE']){?>
+                        <div>Код: <strong>
+                                <?=$item['DISPLAY_PROPERTIES']['CML2_ARTICLE']['VALUE']?>
+                            </strong>
+                        </div><?}?>
+                        <? if($item['PROPERTIES']['CML2_TRAITS']['VALUE']['5']){?><div>Артикул: <?=$item['PROPERTIES']['CML2_TRAITS']['VALUE']['5']?></div><?}?>
+                        <? if($item['PROPERTIES']['CML2_BAR_CODE']['VALUE']){?><div>Штрих-Код: <?=$item['PROPERTIES']['CML2_BAR_CODE']['VALUE']?></div><?}?>
+
+                    </div>
+                </div>
 			</div>
 			<div class="col-sm-4 col-xs-6">
 				<div class="catalog-item__short-info">
@@ -355,17 +376,25 @@ if ($i = $db->Fetch())
 							<?=$item['DISPLAY_PROPERTIES']['CML2_TRAITS']['VALUE'][3] ?>
 						</div>
 					</div>
+                    <div class="catalog-item__short-info_in-box">
+                        в коробке
+                        <div class="catalog-item__short-info_value">
+                            <?=$item['DISPLAY_PROPERTIES']['CML2_TRAITS']['VALUE'][4] ?> шт.
+                        </div>
+                    </div>
 				</div>
 				<div class="catalog-item__price" data-entity="price-block">
 					<?
 					if ($arParams['SHOW_OLD_PRICE'] === 'Y')
 					{
 						?>
-						<span class="price catalog-item__price_old" id="<?=$itemIds['PRICE_OLD']?>"
-							<?=($price['RATIO_PRICE'] >= $price['RATIO_BASE_PRICE'] ? 'style="display: none;"' : '')?>>
-									<?=$price['PRINT_RATIO_BASE_PRICE']?>
-								</span>&nbsp;
-						<?
+							<? if(!($price['RATIO_PRICE'] >= $price['RATIO_BASE_PRICE']) ) {?>
+                            <span class="price catalog-item__price_old catalog-item__price_old-line-through" id="<?=$itemIds['PRICE_OLD']?>">
+                                <span class="price catalog-item__price_old">
+                                    <?=$price['PRINT_RATIO_BASE_PRICE']?>
+                                </span>
+                            </span>
+						<?}
 					}
 					?>
 					<span class="price catalog-item__price_new" id="<?=$itemIds['PRICE']?>">

@@ -52,22 +52,29 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
                     );?>
                 </div>
             <?endif;?>
-            <div class="additional-info col-md-12 col-sm-12">
+            <?
+            if (!CSite::InDir('/index.php')){
+                ?>
+                <div class="additional-info col-md-12 col-sm-12">
 
-                    <?$APPLICATION->IncludeComponent(
-                        "bitrix:main.include",
-                        "",
-                        Array(
-                            "AREA_FILE_SHOW" => "file",
-                            "PATH" => SITE_TEMPLATE_PATH."/include/useful.php",
-                            "EDIT_TEMPLATE" => ""
-                        ),
-                        false
-                    );?>
+                <?$APPLICATION->IncludeComponent(
+                    "bitrix:main.include",
+                    "",
+                    Array(
+                        "AREA_FILE_SHOW" => "file",
+                        "PATH" => SITE_TEMPLATE_PATH."/include/useful.php",
+                        "EDIT_TEMPLATE" => ""
+                    ),
+                    false
+                );?>
                 <div class="additional-info__map">
                     <img class="additional-info__img" src="<?=SITE_TEMPLATE_PATH?>/images/map.svg" alt="">
                 </div>
-            </div>
+                </div>
+                <?
+            }
+            ?>
+
         </div>
     </div>
 <?endif;?>
@@ -90,8 +97,8 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
 		"USE_EXT" => "Y",
 		"DELAY" => "N",
 		"ALLOW_MULTI_SELECT" => "Y",
-		"MENU_CACHE_TYPE" => "N",
-		"MENU_CACHE_TIME" => "3600",
+		"MENU_CACHE_TYPE" => "Y",
+		"MENU_CACHE_TIME" => "36000",
 		"MENU_CACHE_USE_GROUPS" => "Y",
 		"MENU_CACHE_GET_VARS" => array(
 		),
@@ -105,24 +112,24 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
             <h4 class="footer__header">Личный кабинет</h4>
             <nav>
                 <?$APPLICATION->IncludeComponent(
-                    "bitrix:menu",
-                    "bottom",
-                    array(
-                        "ROOT_MENU_TYPE" => "bottom_2",
-                        "MAX_LEVEL" => "1",
-                        "CHILD_MENU_TYPE" => "top",
-                        "USE_EXT" => "Y",
-                        "DELAY" => "N",
-                        "ALLOW_MULTI_SELECT" => "Y",
-                        "MENU_CACHE_TYPE" => "N",
-                        "MENU_CACHE_TIME" => "3600",
-                        "MENU_CACHE_USE_GROUPS" => "Y",
-                        "MENU_CACHE_GET_VARS" => array(
-                        ),
-                        "COMPONENT_TEMPLATE" => "bottom"
-                    ),
-                    false
-                );?>
+	"bitrix:menu", 
+	"bottom", 
+	array(
+		"ROOT_MENU_TYPE" => "bottom_2",
+		"MAX_LEVEL" => "1",
+		"CHILD_MENU_TYPE" => "top",
+		"USE_EXT" => "Y",
+		"DELAY" => "N",
+		"ALLOW_MULTI_SELECT" => "Y",
+		"MENU_CACHE_TYPE" => "Y",
+		"MENU_CACHE_TIME" => "36000",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"MENU_CACHE_GET_VARS" => array(
+		),
+		"COMPONENT_TEMPLATE" => "bottom"
+	),
+	false
+);?>
             </nav>
         </div>
         <div class="col-md-3 col-sm-6 footer__contact">
@@ -189,7 +196,7 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
 
             </div>
             <div class="footer__copyright">
-                Copiright 2017
+                Copiright 2020
             </div>
         </div>
     </div>

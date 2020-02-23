@@ -18,7 +18,7 @@ $this->setFrameMode(true);
         <input  id="filter_input" type="text" class="form-control" aria-label="..." value="<?=$_REQUEST['arrFilter_ff']['NAME']?><?=$_REQUEST['arrFilter_pf']['CML2_ARTICLE']?>">
         <div class="input-group-btn">
             <select id="filter_select"  class="selectpicker">
-                <option value="arrFilter_pf[CML2_ARTICLE]">Поиск по артикулу</option>
+                <option value="arrFilter_pf[CML2_ARTICLE]">Поиск по коду</option>
                 <option value="arrFilter_ff[NAME]">Поиск по названию</option>
             </select>
         </div><!-- /btn-group -->
