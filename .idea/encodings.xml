@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/old/components/bitrix/catalog.top/template4/lang" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/old/components/bitrix/catalog.top/template4/lang/ru/template.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/old/components/bitrix/catalog.top/template4/result_modifier.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/old/components/bitrix/catalog.top/template4/style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/old/components/bitrix/catalog.top/template4/template.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/old/footer.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/old/images/sprite.svg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/old/redme.html" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/old/styles/main.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/orbitansk/images/logo_ng.svg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/orbitansk/styles/banner.css" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/templates/orbitansk/styles/main.css" charset="windows-1251" />
+    <file url="PROJECT" charset="windows-1251" />
+  </component>
+</project>

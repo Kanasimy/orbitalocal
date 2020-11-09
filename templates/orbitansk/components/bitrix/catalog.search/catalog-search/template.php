@@ -45,6 +45,10 @@ if (!empty($arElements) && is_array($arElements))
 	$searchFilter = array(
 		"=ID" => $arElements,
 	);
+	//1811261226 Show only aviable products
+	$searchFilter['>CATALOG_QUANTITY'] = 0;
+	//1811261226 Show only aviable products
+	
 	$APPLICATION->IncludeComponent(
 		"bitrix:catalog.section",
 		"",

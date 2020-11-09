@@ -307,7 +307,8 @@ if (!empty($arParams['LABEL_PROP_POSITION']))
 												</div>
 												<div class="col-sm-6">
 													<div class="product-buy__price">
-														<div class="product-buy__price_text">Цена:</div>
+														<div class="product-buy__price_text">Оптовая цена:</div>
+
 														<?
 														if ($arParams['SHOW_OLD_PRICE'] === 'Y')
 														{

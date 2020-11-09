@@ -37,7 +37,8 @@ else
 {
 	$basketAction = (isset($arParams['SECTION_ADD_TO_BASKET_ACTION']) ? $arParams['SECTION_ADD_TO_BASKET_ACTION'] : '');
 }
-
+global $searchFilter;
+$searchFilter['>CATALOG_QUANTITY'] = 0;
 $APPLICATION->IncludeComponent(
 	"bitrix:catalog.search",
 	"",

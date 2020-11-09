@@ -113,6 +113,7 @@ IncludeTemplateLangFile(__FILE__);
 
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-9 col-md-offset-3">
                 <?$APPLICATION->IncludeComponent(
@@ -136,7 +137,40 @@ IncludeTemplateLangFile(__FILE__);
 );?>
             </div>
         </div>
+    <!--div class="row">
+        <div class="col-md-12">
+            <div class="alert alert-danger alert-dismissible show" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h2 class="home-banner__head-discount home-banner__head">���� �������� ������ ��������� �� ��������� ����� ������.</h2>
+                <hr class="home-banner__dividing">
+                <p>
+                    � ����� � ������ ���������� �� �� 25 ����� 2020&nbsp;�. �&nbsp;206 ���� �������� ������ ��������� �� ��������� ����� ������.
+                </p>
+                <p>
+                    ������ ������ � ���������� ���������� ������������ � ������� ������ �� ������ ��������. (� ������� ������� ������)
+                </p>
+                <p>
+                    ������������ ����� ����������� �������� �������.
+                </p>
+                <p>
+                    �� �������������� �������� ����������� � ���������� ��������
+                </p>
+                <p>
+                    ��� �������� ����� ��������.
+                </p>
+                <p>
+                    � �������� � ������� ����� ������ ����� �������� �������������.<br>
+                </p>
+                <hr class="home-banner__dividing">
+                <p>
+                    �������� ���� � ����� �������.
+                </p>
 
+            </div>
+        </div>
+    </div-->
     <?$dir=explode('/', $APPLICATION->GetCurDir());
     if(CSite::InDir('/index.php')){?>
     <!--Banner-->

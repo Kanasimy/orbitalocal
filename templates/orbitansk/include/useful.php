@@ -15,7 +15,7 @@
                                 <svg class="icons icon-delivery additional-info_icon">
                                     <use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#delivery"></use>
                                 </svg>
-                                аеяокюрмюъ днярюбйю Б ЦНПНДЮ ятн</a></li>
+                              днярюбйю </a></li>
                         <li><a class="additional-info_link" href="mailto:support@orbitansk.ru">
                                 <svg class="icons icon-cross additional-info_icon">
                                     <use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#cross"></use>

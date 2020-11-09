@@ -110,7 +110,7 @@
                                 <input type="submit" name="<?echo $arParams["ACTION_VARIABLE"]."ADD2BASKET"?>" value="<?echo GetMessage("CATALOG_ADD")?>">
                             </form>
                         <?else:?>
-                            <button  class="btn btn-default" type="submit" formaction="<?echo $arElement["BUY_URL"]?>">
+                            <!--button  class="btn btn-default" type="submit" formaction="<?echo $arElement["BUY_URL"]?>">
                                 <?echo GetMessage("CATALOG_BUY")?>
                                 <?
                                 $productID=$arElement['ID'];
@@ -126,7 +126,7 @@
 
                                 <!--вывод цены-->
 
-                                <span class="price">
+                                <!--span class="price">
                                 | <? print_r($arPrice[RESULT_PRICE][DISCOUNT_PRICE])?> р
                                 </span>
 
@@ -162,7 +162,7 @@
 
                                     <?endforeach?>
                                 <?endif?>
-                            </button>
+                            </button-->
                         <?endif;?>
                     <?elseif((count($arResult["PRICES"]) > 0) || is_array($arElement["PRICE_MATRIX"])):?>
                         <?=GetMessage("CATALOG_NOT_AVAILABLE")?>

@@ -289,6 +289,19 @@ $isSidebar = ($arParams['SIDEBAR_DETAIL_SHOW'] == 'Y' && !empty($arParams['SIDEB
 						<div class="catalog-block-header" data-entity="header" data-showed="false" style="display: none; opacity: 0;">
 							<?=GetMessage('CATALOG_POPULAR_IN_SECTION')?>
 						</div>
+                        <?
+                        if(isset($_GET["count"]))
+                        {$_SESSION['PAGE_ELEMENT_COUNT'] = $_GET["count"];}
+                        ?>
+
+                        <?
+                        $arParams["PAGE_ELEMENT_COUNT"] = $_SESSION['PAGE_ELEMENT_COUNT'];
+                        ?>++++++++
+                        <pre>
+                        <?
+                        // print_r($arParams);
+                        ?>
+                        </pre>____________
 						<?
 						$APPLICATION->IncludeComponent(
 							'bitrix:catalog.section',

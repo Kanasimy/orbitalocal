@@ -124,6 +124,9 @@
                                     $arPrice = CCatalogProduct::GetOptimalPrice($productID, 1, $USER->GetUserGroupArray(), $renewal);
                                 }
                             }
+                            echo "<pre style='display: none'>";
+                            print_r($arPrice[RESULT_PRICE][DISCOUNT_PRICE]);
+                            echo "</pre>";
                             if($arPrice[RESULT_PRICE][PERCENT]>0) {
                             ?>
                         <div class="product-discount">
@@ -139,7 +142,7 @@
                             <button  class="btn btn-default" type="submit" formaction="<?echo $arElement["BUY_URL"]?>">
                                 <?echo GetMessage("CATALOG_BUY")?>
 
-                           <!--вывод цены-->
+                                    <!--вывод цены-->
 
                             <span class="price">
                                | <? print_r($arPrice[RESULT_PRICE][DISCOUNT_PRICE])?> р
