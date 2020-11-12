@@ -8,32 +8,30 @@
 if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
 <div class="row">
 	<div class="owl-carousel owl-carousel-home">
-        <!--div class="home-banner home-banner-img may9">
-            <a href="http://orbitansk.ru/news/nashi_pozdravleniya/9may2020/">
-                <img src="../local/images/banner/9 may 25-15.jpg" alt="С Днем Победы!">
-            </a>
-        </div>
-        <div class="home-banner home-banner-img may1">
-            <a href="/news/nashi_pozdravleniya/PozdravlyaemspervymmayaMezhdunarodnymdnemtruda/">
-                <img src="../local/images/banner/1-may-2020.jpg" alt="С международным днем труда!">
-            </a>
-        </div>
-        <div-- class="home-banner shetki">
-            <div class="col-md-8 home-banner__description">
-                <h2 class="home-banner__head-discount home-banner__head">Акция! Скидки до 30 апреля</h2>
+        <div class="home-banner tpv">
+            <div class="col-md-4 home-banner__description">
+                <h2 class="home-banner__head-discount home-banner__head">Самая выгодная цена среди аналогов!</h2>
                 <hr class="home-banner__dividing">
-                <p>
-                    Скидки  -30%! Скидки на зимние щетки стеклоочистителя! Полный перечень товара со скидкой <a
-                            href="http://orbitansk.ru/news/skidki/zimnie-shchetki-stekloochistitelya/">здесь</a>
-                </p>
-                <hr class="home-banner__dividing">
-                <a href="http://www.orbitansk.ru/catalog/shchetki_stekloochistitelya_zimnie/" class="home-banner__btn btn btn-default btn-lg hidden-sm">В каталог</a>
+                <div class="home-banner__text">
+                    <p>
+                        Вентилятор "Auto Heater Fan"  с функцией обогрева разморозит заледеневшие стекла
+                    </p>
+                    <p>
+                        При покупке покупке 10 штук, вы получаете дополнительную скидку -10%
+                    </p>
+                </div>
+                <a href="" class="home-banner__btn btn btn-default btn-lg">купить сейчас</a> <br>
             </div>
-            <div class="col-md-4  col-lg-3 col-lg-offset-1 home-banner__fon">
+            <div class="col-lg-7 col-lg-offset-1 col-md-8">
+                <picture>
+                    <source media="(min-width: 1340px)" srcset="/local/images/webp/banner-fon-tab-tpv.webp 1340w, /local/images/webp/banner-fon-tab-tpv.webp 1000w, /images/webp/banner-fon-tab-tpv.webp 768w" />
+                    <source media="(min-width: 1340px)" srcset="/local/images/webp/banner-fon-tab-tpv.jpg 1340w, /local/images/webp/banner-fon-tab-tpv.jpg 1000w, /images/webp/banner-fon-tab-tpv.jpg 768w" />
+                    <source srcset="/local/images/webp/banner-fon-tpv.webp" />
+                    <source srcset="/local/images/banner/banner-fon-tpv.jpg" />
+                    <img src="/local/images/banner/banner-fon-tpv.jpg" alt="Вентилятор Auto Heater Fan - не даст замерзнуть">
+                </picture>
             </div>
-            <br class="visible-sm">
-            <a href="http://orbitansk.ru/catalog/mebel_dlya_vannoy_komnaty_zerkala/" class="home-banner__btn btn btn-default btn-lg visible-sm">В каталог</a>
-        </div-->
+        </div>
 		<div class="home-banner mebel">
 			<div class="col-md-8 home-banner__description">
 				<h2 class="home-banner__head-discount home-banner__head">РАСПРОДАЖА! Мебель для ванной комнаты!</h2>
