@@ -8,5 +8,5 @@ $MESS["CT_BCS_TPL_MESS_BTN_DETAIL"] = "Mehr";
 $MESS["CT_BCS_TPL_MESS_BTN_SUBSCRIBE"] = "Benachrichtigen wenn wieder auf Lager";
 $MESS["CT_BCS_TPL_MESS_PRICE_FROM"] = "ab";
 $MESS["CATALOG_SET_BUTTON_BUY"] = "Zum Warenkorb";
-$MESS["ADD_TO_BASKET_OK"] = "Produkt wurde zum Warenkorb hinzugefügt";
+$MESS["ADD_TO_BASKET_OK"] = "Produkt wurde zum Warenkorb hinzugefÑŒgt";
 ?>

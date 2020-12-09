@@ -67,7 +67,7 @@ $itemIds = array(
 	'BASKET_PROP_DIV' => $mainId.'_basket_prop',
 	'SUBSCRIBE_LINK' => $mainId.'_subscribe',
 	/*FIXME*/
-	/*Убрать окончательно вкладки*/
+	/*РЈР±СЂР°С‚СЊ РѕРєРѕРЅС‡Р°С‚РµР»СЊРЅРѕ РІРєР»Р°РґРєРё*/
 	'TABS_ID' => $mainId.'_tabs',
 	'TAB_CONTAINERS_ID' => $mainId.'_tab_containers',
 	'SMALL_CARD_PANEL_ID' => $mainId.'_small_card_panel',
@@ -177,13 +177,13 @@ if (!empty($arParams['LABEL_PROP_POSITION']))
                         <div class="product-header__article"><?
                             if ($arResult['DISPLAY_PROPERTIES']['CML2_ARTICLE']['VALUE']) {
                                 ?><span>
-                                Код: <strong><?= $arResult['DISPLAY_PROPERTIES']['CML2_ARTICLE']['VALUE'] ?></strong></span>&nbsp;|&nbsp;
+                                РљРѕРґ: <strong><?= $arResult['DISPLAY_PROPERTIES']['CML2_ARTICLE']['VALUE'] ?></strong></span>&nbsp;|&nbsp;
                             <? }
                             if ($arResult['PROPERTIES']['CML2_TRAITS']['VALUE']['5']) { ?><span>
-                                Артикул: <?= $arResult['PROPERTIES']['CML2_TRAITS']['VALUE']['5'] ?></span>&nbsp;|&nbsp;<?
+                                РђСЂС‚РёРєСѓР»: <?= $arResult['PROPERTIES']['CML2_TRAITS']['VALUE']['5'] ?></span>&nbsp;|&nbsp;<?
                             } ?>
                             <? if ($arResult['PROPERTIES']['CML2_BAR_CODE']['VALUE']) { ?><span>
-                                Штрих-Код: <?= $arResult['PROPERTIES']['CML2_BAR_CODE']['VALUE'] ?></span><?
+                                РЁС‚СЂРёС…-РљРѕРґ: <?= $arResult['PROPERTIES']['CML2_BAR_CODE']['VALUE'] ?></span><?
                             } ?>
                         </div>
 
@@ -247,15 +247,15 @@ if (!empty($arParams['LABEL_PROP_POSITION']))
 			<div class="col-md-7 col-sm-6">
 				<?  if (!empty($arResult['DISPLAY_PROPERTIES']['CML2_TRAITS']) || $arResult['SHOW_OFFERS_PROPS']){?>
 					<div class="product-in-box">
-								в коробке
+								РІ РєРѕСЂРѕР±РєРµ
 								<div class="product-in-box__value">
-									<?=$arResult['DISPLAY_PROPERTIES']['CML2_TRAITS']['VALUE'][4]?> шт.
+									<?=$arResult['DISPLAY_PROPERTIES']['CML2_TRAITS']['VALUE'][4]?> С€С‚.
 								</div>
 							</div>
 					<div class="product-min">
-							мин. кол-во
+							РјРёРЅ. РєРѕР»-РІРѕ
 							<div class="product-min__value">
-								<?=$arResult['DISPLAY_PROPERTIES']['CML2_TRAITS']['VALUE'][3]?> шт.
+								<?=$arResult['DISPLAY_PROPERTIES']['CML2_TRAITS']['VALUE'][3]?> С€С‚.
 							</div>
 						</div>
 				<?}?>
@@ -264,7 +264,7 @@ if (!empty($arParams['LABEL_PROP_POSITION']))
 							<svg class="icons icon-presence">
 								<use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#presence"></use>
 							</svg>
-							в наличии
+							РІ РЅР°Р»РёС‡РёРё
 							<? } ?>
 						</div>
 					<div class="product-buy">
@@ -298,16 +298,16 @@ if (!empty($arParams['LABEL_PROP_POSITION']))
 														</div>
 													</div>
 													</div>
-													<? if($arResult['PROPERTIES']['TORGOVAYA_MARKA']['VALUE']&&$arResult['PROPERTIES']['TORGOVAYA_MARKA']['VALUE']!="_ТОРГОВАЯ МАРКА ОТСУТСТВУЕТ"){?>
+													<? if($arResult['PROPERTIES']['TORGOVAYA_MARKA']['VALUE']&&$arResult['PROPERTIES']['TORGOVAYA_MARKA']['VALUE']!="_РўРћР Р“РћР’РђРЇ РњРђР РљРђ РћРўРЎРЈРўРЎРўР’РЈР•Рў"){?>
 													<div class="product-buy__presence">
-														Бренд:
+														Р‘СЂРµРЅРґ:
 														<div class="product-buy__presence_value"><?=$arResult['PROPERTIES']['TORGOVAYA_MARKA']['VALUE']?></div>
 													</div>
 													<? } ?>
 												</div>
 												<div class="col-sm-6">
 													<div class="product-buy__price">
-														<div class="product-buy__price_text">Оптовая цена:</div>
+														<div class="product-buy__price_text">РћРїС‚РѕРІР°СЏ С†РµРЅР°:</div>
 
 														<?
 														if ($arParams['SHOW_OLD_PRICE'] === 'Y')

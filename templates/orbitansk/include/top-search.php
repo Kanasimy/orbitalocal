@@ -8,8 +8,8 @@
 			<div class="dropdown-menu open" role="combobox">
 					</div>
 			<select id="filter_select2" class="selectpicker" tabindex="-98" onchange="$('#filter_inputtop').attr('name',$(this).val())">
-                <option value="arrFilter_pf[CML2_ARTICLE]">Поиск по артикулу</option>
-                <option value="arrFilter_ff[NAME]">Поиск по названию</option>
+                <option value="arrFilter_pf[CML2_ARTICLE]">РџРѕРёСЃРє РїРѕ Р°СЂС‚РёРєСѓР»Сѓ</option>
+                <option value="arrFilter_ff[NAME]">РџРѕРёСЃРє РїРѕ РЅР°Р·РІР°РЅРёСЋ</option>
 			</select>
 			</div>
 		</div><!-- /btn-group -->

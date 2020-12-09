@@ -1,3 +1,3 @@
 <?
-$MESS["T_IBLOCK_VOTE_BUTTON"] = "Голосувати";
+$MESS["T_IBLOCK_VOTE_BUTTON"] = "Р“РѕР»РѕСЃСѓРІР°С‚Рё";
 ?>

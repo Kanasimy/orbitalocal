@@ -1,5 +1,5 @@
 <?
-$MESS["SEARCH_GO"] = "Øóêàòè";
-$MESS["CT_BSP_ADDITIONAL_PARAMS"] = "Äîäàòêîâ³ ïàðàìåòðè ïîøóêó";
-$MESS["CT_BSP_KEYBOARD_WARNING"] = "Ó çàïèò³ \"#query#\" â³äíîâëåíà ðîçêëàäêà êëàâ³àòóðè.";
+$MESS["SEARCH_GO"] = "Ð¨ÑƒÐºÐ°Ñ‚Ð¸";
+$MESS["CT_BSP_ADDITIONAL_PARAMS"] = "Ð”Ð¾Ð´Ð°Ñ‚ÐºÐ¾Ð²Ñ– Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ð¸ Ð¿Ð¾ÑˆÑƒÐºÑƒ";
+$MESS["CT_BSP_KEYBOARD_WARNING"] = "Ð£ Ð·Ð°Ð¿Ð¸Ñ‚Ñ– \"#query#\" Ð²Ñ–Ð´Ð½Ð¾Ð²Ð»ÐµÐ½Ð° Ñ€Ð¾Ð·ÐºÐ»Ð°Ð´ÐºÐ° ÐºÐ»Ð°Ð²Ñ–Ð°Ñ‚ÑƒÑ€Ð¸.";
 ?>

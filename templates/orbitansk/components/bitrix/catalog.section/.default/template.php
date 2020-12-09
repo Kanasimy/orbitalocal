@@ -163,7 +163,7 @@ if ($arParams['HIDE_SECTION_DESCRIPTION'] !== 'Y')
 	<div class="bx-section-desc">
 		<p class="bx-section-desc-post"><?=$arResult['DESCRIPTION']?></p>
         <? if($countItem>1){?>
-        <button id="buyAllTop" class="btn catalog-header__btn btn-default">Выбранное в корзину</button>
+        <button id="buyAllTop" class="btn catalog-header__btn btn-default">Р’С‹Р±СЂР°РЅРЅРѕРµ РІ РєРѕСЂР·РёРЅСѓ</button>
 	</div>
 	<?}
 }
@@ -746,17 +746,17 @@ if($countItem>1)
     { ?>
         <div class="col-md-4">
             <div class="pageNav">
-                <span>На страницу:</span>
+                <span>РќР° СЃС‚СЂР°РЅРёС†Сѓ:</span>
                 <select id="pageNav">
-                    <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 20) echo'selected="selected"';?> value="?count=20">по 20</option>
-                    <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 40) echo'selected="selected"';?> value="?count=40">по 40</option>
-                    <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 60) echo'selected="selected"';?> value="?count=60">по 60</option>
-                    <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 100) echo'selected="selected"';?> value="?count=100">по 100</option>
+                    <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 20) echo'selected="selected"';?> value="?count=20">РїРѕ 20</option>
+                    <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 40) echo'selected="selected"';?> value="?count=40">РїРѕ 40</option>
+                    <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 60) echo'selected="selected"';?> value="?count=60">РїРѕ 60</option>
+                    <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 100) echo'selected="selected"';?> value="?count=100">РїРѕ 100</option>
                 </select>
             </div>
         </div>
         <div class="col-md-offset-4 col-md-4">
-            <button id="buyAllBottom" class="btn catalog-header__btn btn-default">Выбранное в корзину</button>
+            <button id="buyAllBottom" class="btn catalog-header__btn btn-default">Р’С‹Р±СЂР°РЅРЅРѕРµ РІ РєРѕСЂР·РёРЅСѓ</button>
         </div>
     <?
     }

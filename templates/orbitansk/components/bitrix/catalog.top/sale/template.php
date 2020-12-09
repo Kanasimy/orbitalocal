@@ -1,10 +1,10 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
-<h2 class="red">РАСПРОДАЖА</h2>
+<h2 class="red">Р РђРЎРџР РћР”РђР–Рђ</h2>
 
 <div class="row popular">
     <div class="owl-carousel owl-carousel-popular">
 <!--FIXME-->
-    <!--Убрать количество товаров в строку, не используется, TD_WIDTH, LINE_ELEMENT_COUNT-->
+    <!--РЈР±СЂР°С‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РІ СЃС‚СЂРѕРєСѓ, РЅРµ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ, TD_WIDTH, LINE_ELEMENT_COUNT-->
 	<?foreach($arResult["ROWS"] as $arItems):?>
 
 		<?foreach($arItems as $arElement):?>
@@ -131,7 +131,7 @@
                             ?>
                         <div class="product-discount">
                             <span class="price product-buy__price_old">
-                                <?=$arPrice[RESULT_PRICE][BASE_PRICE]?> р
+                                <?=$arPrice[RESULT_PRICE][BASE_PRICE]?> СЂ
                             </span>
                             <span class="product-discount">
                                - <?=$arPrice[RESULT_PRICE][PERCENT]?> %
@@ -142,10 +142,10 @@
                             <button  class="btn btn-default" type="submit" formaction="<?echo $arElement["BUY_URL"]?>">
                                 <?echo GetMessage("CATALOG_BUY")?>
 
-                                    <!--вывод цены-->
+                                    <!--РІС‹РІРѕРґ С†РµРЅС‹-->
 
                             <span class="price">
-                               | <? print_r($arPrice[RESULT_PRICE][DISCOUNT_PRICE])?> р
+                               | <? print_r($arPrice[RESULT_PRICE][DISCOUNT_PRICE])?> СЂ
                             </span>
 
 

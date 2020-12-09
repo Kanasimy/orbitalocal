@@ -1,12 +1,12 @@
 <?
-$MESS["CATALOG_ADD"] = "Â êîðçèíó";
-$MESS["CATALOG_COMPARE"] = "Ñðàâíèòü";
-$MESS["CT_BCS_TPL_ELEMENT_DELETE_CONFIRM"] = "Áóäåò óäàëåíà âñÿ èíôîðìàöèÿ, ñâÿçàííàÿ ñ ýòîé çàïèñüþ. Ïðîäîëæèòü?";
-$MESS["CT_BCS_TPL_MESS_BTN_BUY"] = "Êóïèòü";
-$MESS["CT_BCS_TPL_MESS_PRODUCT_NOT_AVAILABLE"] = "Íåò â íàëè÷èè";
-$MESS["CT_BCS_TPL_MESS_BTN_DETAIL"] = "Ïîäðîáíåå";
-$MESS["CT_BCS_TPL_MESS_BTN_SUBSCRIBE"] = "Ïîäïèñàòüñÿ";
-$MESS["CT_BCS_TPL_MESS_PRICE_FROM"] = "îò";
-$MESS["CATALOG_SET_BUTTON_BUY"] = "Ïåðåéòè â êîðçèíó";
-$MESS["ADD_TO_BASKET_OK"] = "Òîâàð äîáàâëåí â êîðçèíó";
+$MESS["CATALOG_ADD"] = "Ð’ ÐºÐ¾Ñ€Ð·Ð¸Ð½Ñƒ";
+$MESS["CATALOG_COMPARE"] = "Ð¡Ñ€Ð°Ð²Ð½Ð¸Ñ‚ÑŒ";
+$MESS["CT_BCS_TPL_ELEMENT_DELETE_CONFIRM"] = "Ð‘ÑƒÐ´ÐµÑ‚ ÑƒÐ´Ð°Ð»ÐµÐ½Ð° Ð²ÑÑ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ, ÑÐ²ÑÐ·Ð°Ð½Ð½Ð°Ñ Ñ ÑÑ‚Ð¾Ð¹ Ð·Ð°Ð¿Ð¸ÑÑŒÑŽ. ÐŸÑ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ?";
+$MESS["CT_BCS_TPL_MESS_BTN_BUY"] = "ÐšÑƒÐ¿Ð¸Ñ‚ÑŒ";
+$MESS["CT_BCS_TPL_MESS_PRODUCT_NOT_AVAILABLE"] = "ÐÐµÑ‚ Ð² Ð½Ð°Ð»Ð¸Ñ‡Ð¸Ð¸";
+$MESS["CT_BCS_TPL_MESS_BTN_DETAIL"] = "ÐŸÐ¾Ð´Ñ€Ð¾Ð±Ð½ÐµÐµ";
+$MESS["CT_BCS_TPL_MESS_BTN_SUBSCRIBE"] = "ÐŸÐ¾Ð´Ð¿Ð¸ÑÐ°Ñ‚ÑŒÑÑ";
+$MESS["CT_BCS_TPL_MESS_PRICE_FROM"] = "Ð¾Ñ‚";
+$MESS["CATALOG_SET_BUTTON_BUY"] = "ÐŸÐµÑ€ÐµÐ¹Ñ‚Ð¸ Ð² ÐºÐ¾Ñ€Ð·Ð¸Ð½Ñƒ";
+$MESS["ADD_TO_BASKET_OK"] = "Ð¢Ð¾Ð²Ð°Ñ€ Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½ Ð² ÐºÐ¾Ñ€Ð·Ð¸Ð½Ñƒ";
 ?>

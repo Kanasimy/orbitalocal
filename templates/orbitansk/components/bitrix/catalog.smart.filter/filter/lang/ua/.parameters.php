@@ -1,17 +1,17 @@
 <?
-$MESS["CP_BCT_TPL_THEME_SITE"] = "Áðàòè òåìó ç íàëàøòóâàíü ñàéòó (äëÿ âèð³øåííÿ bitrix.eshop)";
-$MESS["CP_BCT_TPL_THEME_BLUE"] = "ñèíÿ (òåìà çà çàìîâ÷óâàííÿì)";
-$MESS["CP_BCT_TPL_THEME_GREEN"] = "çåëåíà";
-$MESS["CP_BCT_TPL_THEME_WOOD"] = "äåðåâî";
-$MESS["CP_BCT_TPL_THEME_YELLOW"] = "æîâòà";
-$MESS["CP_BCT_TPL_THEME_RED"] = "÷åðâîíà";
-$MESS["CP_BCT_TPL_TEMPLATE_THEME"] = "Êîë³ðíà òåìà";
-$MESS["CP_BCT_TPL_THEME_BLACK"] = "òåìíà";
-$MESS["CP_BCT_TPL_FILTER_VIEW"] = "Âèä â³äîáðàæåííÿ";
-$MESS["CP_BCT_TPL_FILTER_VIEW_H"] = "Ãîðèçîíòàëüíèé";
-$MESS["CP_BCT_TPL_FILTER_VIEW_V"] = "Âåðòèêàëüíèé";
-$MESS["CP_BCT_TPL_POPUP_POSITION"] = "Ïîçèö³ÿ äëÿ â³äîáðàæåííÿ ñïëèâàþ÷îãî áëîêó ç ³íôîðìàö³ºþ ïðî ô³ëüòðàö³¿";
-$MESS["CP_BCT_TPL_POPUP_POSITION_LEFT"] = "çë³âà";
-$MESS["CP_BCT_TPL_POPUP_POSITION_RIGHT"] = "ïðàâîðó÷";
-$MESS["TP_BCSF_DISPLAY_ELEMENT_COUNT"] = "Ïîêàçóâàòè ê³ëüê³ñòü";
+$MESS["CP_BCT_TPL_THEME_SITE"] = "Ð‘Ñ€Ð°Ñ‚Ð¸ Ñ‚ÐµÐ¼Ñƒ Ð· Ð½Ð°Ð»Ð°ÑˆÑ‚ÑƒÐ²Ð°Ð½ÑŒ ÑÐ°Ð¹Ñ‚Ñƒ (Ð´Ð»Ñ Ð²Ð¸Ñ€Ñ–ÑˆÐµÐ½Ð½Ñ bitrix.eshop)";
+$MESS["CP_BCT_TPL_THEME_BLUE"] = "ÑÐ¸Ð½Ñ (Ñ‚ÐµÐ¼Ð° Ð·Ð° Ð·Ð°Ð¼Ð¾Ð²Ñ‡ÑƒÐ²Ð°Ð½Ð½ÑÐ¼)";
+$MESS["CP_BCT_TPL_THEME_GREEN"] = "Ð·ÐµÐ»ÐµÐ½Ð°";
+$MESS["CP_BCT_TPL_THEME_WOOD"] = "Ð´ÐµÑ€ÐµÐ²Ð¾";
+$MESS["CP_BCT_TPL_THEME_YELLOW"] = "Ð¶Ð¾Ð²Ñ‚Ð°";
+$MESS["CP_BCT_TPL_THEME_RED"] = "Ñ‡ÐµÑ€Ð²Ð¾Ð½Ð°";
+$MESS["CP_BCT_TPL_TEMPLATE_THEME"] = "ÐšÐ¾Ð»Ñ–Ñ€Ð½Ð° Ñ‚ÐµÐ¼Ð°";
+$MESS["CP_BCT_TPL_THEME_BLACK"] = "Ñ‚ÐµÐ¼Ð½Ð°";
+$MESS["CP_BCT_TPL_FILTER_VIEW"] = "Ð’Ð¸Ð´ Ð²Ñ–Ð´Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð½Ñ";
+$MESS["CP_BCT_TPL_FILTER_VIEW_H"] = "Ð“Ð¾Ñ€Ð¸Ð·Ð¾Ð½Ñ‚Ð°Ð»ÑŒÐ½Ð¸Ð¹";
+$MESS["CP_BCT_TPL_FILTER_VIEW_V"] = "Ð’ÐµÑ€Ñ‚Ð¸ÐºÐ°Ð»ÑŒÐ½Ð¸Ð¹";
+$MESS["CP_BCT_TPL_POPUP_POSITION"] = "ÐŸÐ¾Ð·Ð¸Ñ†Ñ–Ñ Ð´Ð»Ñ Ð²Ñ–Ð´Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð½Ñ ÑÐ¿Ð»Ð¸Ð²Ð°ÑŽÑ‡Ð¾Ð³Ð¾ Ð±Ð»Ð¾ÐºÑƒ Ð· Ñ–Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ñ–Ñ”ÑŽ Ð¿Ñ€Ð¾ Ñ„Ñ–Ð»ÑŒÑ‚Ñ€Ð°Ñ†Ñ–Ñ—";
+$MESS["CP_BCT_TPL_POPUP_POSITION_LEFT"] = "Ð·Ð»Ñ–Ð²Ð°";
+$MESS["CP_BCT_TPL_POPUP_POSITION_RIGHT"] = "Ð¿Ñ€Ð°Ð²Ð¾Ñ€ÑƒÑ‡";
+$MESS["TP_BCSF_DISPLAY_ELEMENT_COUNT"] = "ÐŸÐ¾ÐºÐ°Ð·ÑƒÐ²Ð°Ñ‚Ð¸ ÐºÑ–Ð»ÑŒÐºÑ–ÑÑ‚ÑŒ";
 ?>

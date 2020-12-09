@@ -1,8 +1,8 @@
 <?
-$MESS["SALE_MODULE_NOT_INSTALL"] = "Ìîäóëü ²íòåðíåò-ìàãàçèí íå âñòàíîâëåíî.";
-$MESS["SALE_EMPTY_BASKET"] = "Âàø êîøèê ïîðîæí³é";
-$MESS["SBB_TITLE"] = "Ì³é êîøèê";
-$MESS["SBB_PRODUCT_NOT_AVAILABLE"] = "Òîâàð #PRODUCT# íå äîñòóïíèé äëÿ çàìîâëåííÿ";
-$MESS["SBB_PRODUCT_NOT_ENOUGH_QUANTITY"] = "Äëÿ îôîðìëåííÿ çàìîâëåííÿ íåäîñòàòíüî òîâàðó \"#PRODUCT#\" â ê³ëüê³ñòü #NUMBER#";
-$MESS["SBB_PRODUCT_PRICE_NOT_FOUND"] = "×è íå çíàéäåíà ö³íà ïðîäóêòó";
+$MESS["SALE_MODULE_NOT_INSTALL"] = "ÐœÐ¾Ð´ÑƒÐ»ÑŒ Ð†Ð½Ñ‚ÐµÑ€Ð½ÐµÑ‚-Ð¼Ð°Ð³Ð°Ð·Ð¸Ð½ Ð½Ðµ Ð²ÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½Ð¾.";
+$MESS["SALE_EMPTY_BASKET"] = "Ð’Ð°Ñˆ ÐºÐ¾ÑˆÐ¸Ðº Ð¿Ð¾Ñ€Ð¾Ð¶Ð½Ñ–Ð¹";
+$MESS["SBB_TITLE"] = "ÐœÑ–Ð¹ ÐºÐ¾ÑˆÐ¸Ðº";
+$MESS["SBB_PRODUCT_NOT_AVAILABLE"] = "Ð¢Ð¾Ð²Ð°Ñ€ #PRODUCT# Ð½Ðµ Ð´Ð¾ÑÑ‚ÑƒÐ¿Ð½Ð¸Ð¹ Ð´Ð»Ñ Ð·Ð°Ð¼Ð¾Ð²Ð»ÐµÐ½Ð½Ñ";
+$MESS["SBB_PRODUCT_NOT_ENOUGH_QUANTITY"] = "Ð”Ð»Ñ Ð¾Ñ„Ð¾Ñ€Ð¼Ð»ÐµÐ½Ð½Ñ Ð·Ð°Ð¼Ð¾Ð²Ð»ÐµÐ½Ð½Ñ Ð½ÐµÐ´Ð¾ÑÑ‚Ð°Ñ‚Ð½ÑŒÐ¾ Ñ‚Ð¾Ð²Ð°Ñ€Ñƒ \"#PRODUCT#\" Ð² ÐºÑ–Ð»ÑŒÐºÑ–ÑÑ‚ÑŒ #NUMBER#";
+$MESS["SBB_PRODUCT_PRICE_NOT_FOUND"] = "Ð§Ð¸ Ð½Ðµ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð° Ñ†Ñ–Ð½Ð° Ð¿Ñ€Ð¾Ð´ÑƒÐºÑ‚Ñƒ";
 ?>

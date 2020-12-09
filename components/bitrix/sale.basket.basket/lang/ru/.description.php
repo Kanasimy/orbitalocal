@@ -1,5 +1,5 @@
 <?
-$MESS ['SBB_DEFAULT_TEMPLATE_NAME'] = "Êîðçèíà";
-$MESS ['SBB_DEFAULT_TEMPLATE_DESCRIPTION'] = "Âûâîäèò êîðçèíó òåêóùåãî ïîëüçîâàòåëÿ";
-$MESS ['SBB_NAME'] = "Êîðçèíà";
+$MESS ['SBB_DEFAULT_TEMPLATE_NAME'] = "ÐšÐ¾Ñ€Ð·Ð¸Ð½Ð°";
+$MESS ['SBB_DEFAULT_TEMPLATE_DESCRIPTION'] = "Ð’Ñ‹Ð²Ð¾Ð´Ð¸Ñ‚ ÐºÐ¾Ñ€Ð·Ð¸Ð½Ñƒ Ñ‚ÐµÐºÑƒÑ‰ÐµÐ³Ð¾ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ";
+$MESS ['SBB_NAME'] = "ÐšÐ¾Ñ€Ð·Ð¸Ð½Ð°";
 ?>

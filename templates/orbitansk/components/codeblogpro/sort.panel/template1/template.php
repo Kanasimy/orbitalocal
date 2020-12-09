@@ -18,10 +18,10 @@ if (!empty($arResult['SORT']['PROPERTIES'])) { ?>
              */
             if ($property['CODE'] != 'rand') {
                 if (strpos($property['ORDER'], 'asc') !== false) {
-                    echo  'по убыванию';
+                    echo  'РїРѕ СѓР±С‹РІР°РЅРёСЋ';
                 }
                 elseif (strpos($property['ORDER'], 'desc') !== false) {
-                    echo  'по возрастанию';
+                    echo  'РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ';
                 }
             }
             ?></option>
@@ -32,10 +32,10 @@ if (!empty($arResult['SORT']['PROPERTIES'])) { ?>
                  */
                 if ($property['CODE'] != 'rand') {
                     if (strpos($property['ORDER'], 'desc') !== false) {
-                        echo  'по убыванию';
+                        echo  'РїРѕ СѓР±С‹РІР°РЅРёСЋ';
                     }
                     elseif (strpos($property['ORDER'], 'asc') !== false) {
-                        echo  'по возрастанию';
+                        echo  'РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ';
                     }
                 }
                 ?></option>

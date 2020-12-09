@@ -162,7 +162,7 @@ if ($arParams['HIDE_SECTION_DESCRIPTION'] !== 'Y')
 	<div class="bx-section-desc">
 		<p class="bx-section-desc-post"><?=$arResult['DESCRIPTION']?></p>
         <? if($countItem>1){?>
-        <button id="buyAllTop" class="btn catalog-header__btn btn-default">Выбранное в корзину</button>
+        <button id="buyAllTop" class="btn catalog-header__btn btn-default">Р’С‹Р±СЂР°РЅРЅРѕРµ РІ РєРѕСЂР·РёРЅСѓ</button>
 	</div>
 	<?}
 }
@@ -744,16 +744,16 @@ if ($showLazyLoad)
 if($countItem>1)
     { ?>
         <div class="str">
-            <span>На страницу:</span>
+            <span>РќР° СЃС‚СЂР°РЅРёС†Сѓ:</span>
             <select name="forma" on change="location = this.options[this.selectedIndex].value;">
-                <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 20) echo'selected="selected"';?> value="?count=6">по 20</option>
-                <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 40) echo'selected="selected"';?> value="?count=12">по 40</option>
-                <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 60) echo'selected="selected"';?> value="?count=18">по 60</option>
-                <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 100) echo'selected="selected"';?> value="?count=24">по 100</option>
+                <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 20) echo'selected="selected"';?> value="?count=6">РїРѕ 20</option>
+                <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 40) echo'selected="selected"';?> value="?count=12">РїРѕ 40</option>
+                <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 60) echo'selected="selected"';?> value="?count=18">РїРѕ 60</option>
+                <option <?if ($arParams["PAGE_ELEMENT_COUNT"] == 100) echo'selected="selected"';?> value="?count=24">РїРѕ 100</option>
             </select>
         </div>
 
-        <button id="buyAllBottom" class="btn catalog-header__btn btn-default">Выбранное в корзину</button>
+        <button id="buyAllBottom" class="btn catalog-header__btn btn-default">Р’С‹Р±СЂР°РЅРЅРѕРµ РІ РєРѕСЂР·РёРЅСѓ</button>
     <?
     }
     ?>

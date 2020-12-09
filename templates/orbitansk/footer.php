@@ -85,7 +85,7 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
 <section class="footer">
     <div class="row footer__wrapper">
         <div class="col-md-3 col-sm-6 footer__about">
-            <h4 class="footer__header">О нас</h4>
+            <h4 class="footer__header">Рћ РЅР°СЃ</h4>
             <nav>
                 <?$APPLICATION->IncludeComponent(
 	"bitrix:menu", 
@@ -109,7 +109,7 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
             </nav>
         </div>
         <div class="col-md-3 col-sm-6 footer__cabinet" >
-            <h4 class="footer__header">Личный кабинет</h4>
+            <h4 class="footer__header">Р›РёС‡РЅС‹Р№ РєР°Р±РёРЅРµС‚</h4>
             <nav>
                 <?$APPLICATION->IncludeComponent(
 	"bitrix:menu", 
@@ -146,8 +146,8 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
                 </svg>
                 <a href="mailto:info@orbitansc.ru"><strong>info@orbitansk.ru</strong></a>
             </div>
-            <div class="footer__adress">Адрес: г. Новосибирск, Петухова,&nbsp;69Б<br />
-                C 9<sup>00</sup> до 18<sup>00</sup>
+            <div class="footer__adress">РђРґСЂРµСЃ: Рі. РќРѕРІРѕСЃРёР±РёСЂСЃРє, РџРµС‚СѓС…РѕРІР°,&nbsp;69Р‘<br />
+                C 9<sup>00</sup> РґРѕ 18<sup>00</sup>
             </div>
         </div>
         <div class="col-md-3 col-sm-6 footer__logo">
@@ -188,7 +188,7 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
         </div>
         <div class="col-md-9 col-sm-6 footer__info">
             <small >
-                Информация, предоставленная на сайте, в том числе информация о цене товара, не является публичной офертой, определяемой положениями статьи 437 Гражданского Кодекса Российский Федерации. Для получения более подробной информации следует обращаться к менеджерам компании по указанным на сайте телефонам.
+                РРЅС„РѕСЂРјР°С†РёСЏ, РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРЅР°СЏ РЅР° СЃР°Р№С‚Рµ, РІ С‚РѕРј С‡РёСЃР»Рµ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ С†РµРЅРµ С‚РѕРІР°СЂР°, РЅРµ СЏРІР»СЏРµС‚СЃСЏ РїСѓР±Р»РёС‡РЅРѕР№ РѕС„РµСЂС‚РѕР№, РѕРїСЂРµРґРµР»СЏРµРјРѕР№ РїРѕР»РѕР¶РµРЅРёСЏРјРё СЃС‚Р°С‚СЊРё 437 Р“СЂР°Р¶РґР°РЅСЃРєРѕРіРѕ РљРѕРґРµРєСЃР° Р РѕСЃСЃРёР№СЃРєРёР№ Р¤РµРґРµСЂР°С†РёРё. Р”Р»СЏ РїРѕР»СѓС‡РµРЅРёСЏ Р±РѕР»РµРµ РїРѕРґСЂРѕР±РЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё СЃР»РµРґСѓРµС‚ РѕР±СЂР°С‰Р°С‚СЊСЃСЏ Рє РјРµРЅРµРґР¶РµСЂР°Рј РєРѕРјРїР°РЅРёРё РїРѕ СѓРєР°Р·Р°РЅРЅС‹Рј РЅР° СЃР°Р№С‚Рµ С‚РµР»РµС„РѕРЅР°Рј.
             </small>
         </div>
         <div class="col-md-3 col-sm-6">
@@ -211,7 +211,7 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h3 class="modal-title red" id="myModalLabel">Регистрация</h3>
+                <h3 class="modal-title red" id="myModalLabel">Р РµРіРёСЃС‚СЂР°С†РёСЏ</h3>
             </div>
             <div class="modal-body">
                 <?$APPLICATION->IncludeComponent(
@@ -235,8 +235,8 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
 );?>
             </div>
             <!--div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
-                <button type="submit" class="btn btn-primary">Регистрация</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">РћС‚РјРµРЅР°</button>
+                <button type="submit" class="btn btn-primary">Р РµРіРёСЃС‚СЂР°С†РёСЏ</button>
             </div-->
         </div>
     </div>
@@ -249,7 +249,7 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h3 class="modal-title red" id="myModalLabel">Войти</h3>
+                <h3 class="modal-title red" id="myModalLabel">Р’РѕР№С‚Рё</h3>
             </div>
 
                 <?$APPLICATION->IncludeComponent("bitrix:system.auth.form","modal",Array(

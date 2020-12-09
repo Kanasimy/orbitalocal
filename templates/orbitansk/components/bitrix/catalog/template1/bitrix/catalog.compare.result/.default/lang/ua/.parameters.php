@@ -1,10 +1,10 @@
 <?
-$MESS["CP_BCC_TPL_THEME_SITE"] = "Áðàòè òåìó ç íàëàøòóâàíü ñàéòó (äëÿ âèð³øåííÿ bitrix.eshop)";
-$MESS["CP_BCC_TPL_THEME_BLUE"] = "ñèíÿ (òåìà çà çàìîâ÷óâàííÿì)";
-$MESS["CP_BCC_TPL_THEME_GREEN"] = "Çåëåíà";
-$MESS["CP_BCC_TPL_THEME_RED"] = "×åðâîíà";
-$MESS["CP_BCC_TPL_THEME_WOOD"] = "Äåðåâî";
-$MESS["CP_BCC_TPL_THEME_YELLOW"] = "Æîâòà";
-$MESS["CP_BCC_TPL_THEME_BLACK"] = "Òåìíà";
-$MESS["CP_BCC_TPL_TEMPLATE_THEME"] = "Êîë³ðíà òåìà";
+$MESS["CP_BCC_TPL_THEME_SITE"] = "Ð‘Ñ€Ð°Ñ‚Ð¸ Ñ‚ÐµÐ¼Ñƒ Ð· Ð½Ð°Ð»Ð°ÑˆÑ‚ÑƒÐ²Ð°Ð½ÑŒ ÑÐ°Ð¹Ñ‚Ñƒ (Ð´Ð»Ñ Ð²Ð¸Ñ€Ñ–ÑˆÐµÐ½Ð½Ñ bitrix.eshop)";
+$MESS["CP_BCC_TPL_THEME_BLUE"] = "ÑÐ¸Ð½Ñ (Ñ‚ÐµÐ¼Ð° Ð·Ð° Ð·Ð°Ð¼Ð¾Ð²Ñ‡ÑƒÐ²Ð°Ð½Ð½ÑÐ¼)";
+$MESS["CP_BCC_TPL_THEME_GREEN"] = "Ð—ÐµÐ»ÐµÐ½Ð°";
+$MESS["CP_BCC_TPL_THEME_RED"] = "Ð§ÐµÑ€Ð²Ð¾Ð½Ð°";
+$MESS["CP_BCC_TPL_THEME_WOOD"] = "Ð”ÐµÑ€ÐµÐ²Ð¾";
+$MESS["CP_BCC_TPL_THEME_YELLOW"] = "Ð–Ð¾Ð²Ñ‚Ð°";
+$MESS["CP_BCC_TPL_THEME_BLACK"] = "Ð¢ÐµÐ¼Ð½Ð°";
+$MESS["CP_BCC_TPL_TEMPLATE_THEME"] = "ÐšÐ¾Ð»Ñ–Ñ€Ð½Ð° Ñ‚ÐµÐ¼Ð°";
 ?>

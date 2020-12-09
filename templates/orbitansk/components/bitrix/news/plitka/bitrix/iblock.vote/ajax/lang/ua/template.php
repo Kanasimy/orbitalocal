@@ -1,4 +1,4 @@
 <?
-$MESS["T_IBLOCK_VOTE_RESULTS"] = "(Ãîëîñ³â: #VOTES#, Ðåéòèíã: #RATING#)";
-$MESS["T_IBLOCK_VOTE_NO_RESULTS"] = "(Íåìàº ãîëîñ³â)";
+$MESS["T_IBLOCK_VOTE_RESULTS"] = "(Ð“Ð¾Ð»Ð¾ÑÑ–Ð²: #VOTES#, Ð ÐµÐ¹Ñ‚Ð¸Ð½Ð³: #RATING#)";
+$MESS["T_IBLOCK_VOTE_NO_RESULTS"] = "(ÐÐµÐ¼Ð°Ñ” Ð³Ð¾Ð»Ð¾ÑÑ–Ð²)";
 ?>

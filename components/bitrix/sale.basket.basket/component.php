@@ -91,8 +91,8 @@ if (strlen($_REQUEST["BasketRefresh"]) > 0 || strlen($_REQUEST["BasketOrder"]) >
 
 		foreach ($arRes as $key => $value)
 			$arResult[$key] = $value;
-		//Fixme Если товар не доступен ничего не делаем
-		$rez=in_array("не доступен", $arResult["WARNING_MESSAGE"]);
+		//Fixme Р•СЃР»Рё С‚РѕРІР°СЂ РЅРµ РґРѕСЃС‚СѓРїРµРЅ РЅРёС‡РµРіРѕ РЅРµ РґРµР»Р°РµРј
+		$rez=in_array("РЅРµ РґРѕСЃС‚СѓРїРµРЅ", $arResult["WARNING_MESSAGE"]);
                 if (!empty($_REQUEST["BasketOrder"]) && $rez==0)
 //                if (!empty($_REQUEST["BasketOrder"]) && empty($arResult["WARNING_MESSAGE"]))
 		{

@@ -3,4 +3,4 @@
 }
 
 
-$MESS['CODEBLOGPRO_SORT_PANEL_COMPONENT_TEMPALTE_NO_SORT'] = 'Без сортировки';
+$MESS['CODEBLOGPRO_SORT_PANEL_COMPONENT_TEMPALTE_NO_SORT'] = 'Р‘РµР· СЃРѕСЂС‚РёСЂРѕРІРєРё';

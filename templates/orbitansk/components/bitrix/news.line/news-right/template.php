@@ -12,7 +12,7 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 ?>
-<h3 class="blue">Новости</h3>
+<h3 class="blue">РќРѕРІРѕСЃС‚Рё</h3>
 
 	<?foreach($arResult["ITEMS"] as $arItem):?>
 
@@ -22,7 +22,7 @@ $this->setFrameMode(true);
 		$this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));
 		?>
 		<h5 id="<?=$this->GetEditAreaId($arItem['ID']);?>"><small class="news__data"><?echo $arItem["DISPLAY_ACTIVE_FROM"]?>&nbsp;&nbsp;</small><?echo $arItem["NAME"]?></h5>
-	<p><?echo strip_tags($arItem[PREVIEW_TEXT]);?> <a href="<?echo $arItem["DETAIL_PAGE_URL"]?>">далее...</a></p>
+	<p><?echo strip_tags($arItem[PREVIEW_TEXT]);?> <a href="<?echo $arItem["DETAIL_PAGE_URL"]?>">РґР°Р»РµРµ...</a></p>
 </div>
 	<?endforeach;?>
 

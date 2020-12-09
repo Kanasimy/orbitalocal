@@ -1,5 +1,5 @@
 <?
-$MESS ['subscr_form_email_p'] = "Ïîäïèøèòåñü íà ðàññûëêó";
-$MESS ['subscr_form_email_title'] = "Âàø e-mail";
-$MESS ['subscr_form_button'] = "îòïðàâèòü";
+$MESS ['subscr_form_email_p'] = "ÐŸÐ¾Ð´Ð¿Ð¸ÑˆÐ¸Ñ‚ÐµÑÑŒ Ð½Ð° Ñ€Ð°ÑÑÑ‹Ð»ÐºÑƒ";
+$MESS ['subscr_form_email_title'] = "Ð’Ð°Ñˆ e-mail";
+$MESS ['subscr_form_button'] = "Ð¾Ñ‚Ð¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ";
 ?>

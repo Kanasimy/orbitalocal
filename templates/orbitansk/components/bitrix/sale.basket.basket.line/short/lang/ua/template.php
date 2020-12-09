@@ -1,18 +1,18 @@
 <?
-$MESS["TSB1_PERSONAL"] = "Ïåðñîíàëüíèé ðîçä³ë";
-$MESS["TSB1_EXPAND"] = "Ðîçêðèòè";
-$MESS["TSB1_COLLAPSE"] = "Ïðèõîâàòè";
-$MESS["TSB1_CART"] = "Êîøèê";
-$MESS["TSB1_TOTAL_PRICE"] = "Íà ñóìó";
-$MESS["TSB1_YOUR_CART"] = "Âàø êîøèê";
-$MESS["TSB1_READY"] = "Ãîòîâ³ äî ïîêóïêè òîâàðè";
-$MESS["TSB1_DELAY"] = "Â³äêëàäåí³ òîâàðè";
-$MESS["TSB1_NOTAVAIL"] = "Íåäîñòóïí³ òîâàðè";
-$MESS["TSB1_SUBSCRIBE"] = "Ï³äïèñàí³ òîâàðè";
-$MESS["TSB1_SUM"] = "íà ñóìó";
-$MESS["TSB1_DELETE"] = "Âèäàëèòè";
-$MESS["TSB1_2ORDER"] = "Îôîðìèòè çàìîâëåííÿ";
-$MESS["TSB1_LOGIN"] = "Óâ³éòè";
-$MESS["TSB1_LOGOUT"] = "Âèéòè";
-$MESS["TSB1_REGISTER"] = "Ðåºñòðàö³ÿ";
+$MESS["TSB1_PERSONAL"] = "ÐŸÐµÑ€ÑÐ¾Ð½Ð°Ð»ÑŒÐ½Ð¸Ð¹ Ñ€Ð¾Ð·Ð´Ñ–Ð»";
+$MESS["TSB1_EXPAND"] = "Ð Ð¾Ð·ÐºÑ€Ð¸Ñ‚Ð¸";
+$MESS["TSB1_COLLAPSE"] = "ÐŸÑ€Ð¸Ñ…Ð¾Ð²Ð°Ñ‚Ð¸";
+$MESS["TSB1_CART"] = "ÐšÐ¾ÑˆÐ¸Ðº";
+$MESS["TSB1_TOTAL_PRICE"] = "ÐÐ° ÑÑƒÐ¼Ñƒ";
+$MESS["TSB1_YOUR_CART"] = "Ð’Ð°Ñˆ ÐºÐ¾ÑˆÐ¸Ðº";
+$MESS["TSB1_READY"] = "Ð“Ð¾Ñ‚Ð¾Ð²Ñ– Ð´Ð¾ Ð¿Ð¾ÐºÑƒÐ¿ÐºÐ¸ Ñ‚Ð¾Ð²Ð°Ñ€Ð¸";
+$MESS["TSB1_DELAY"] = "Ð’Ñ–Ð´ÐºÐ»Ð°Ð´ÐµÐ½Ñ– Ñ‚Ð¾Ð²Ð°Ñ€Ð¸";
+$MESS["TSB1_NOTAVAIL"] = "ÐÐµÐ´Ð¾ÑÑ‚ÑƒÐ¿Ð½Ñ– Ñ‚Ð¾Ð²Ð°Ñ€Ð¸";
+$MESS["TSB1_SUBSCRIBE"] = "ÐŸÑ–Ð´Ð¿Ð¸ÑÐ°Ð½Ñ– Ñ‚Ð¾Ð²Ð°Ñ€Ð¸";
+$MESS["TSB1_SUM"] = "Ð½Ð° ÑÑƒÐ¼Ñƒ";
+$MESS["TSB1_DELETE"] = "Ð’Ð¸Ð´Ð°Ð»Ð¸Ñ‚Ð¸";
+$MESS["TSB1_2ORDER"] = "ÐžÑ„Ð¾Ñ€Ð¼Ð¸Ñ‚Ð¸ Ð·Ð°Ð¼Ð¾Ð²Ð»ÐµÐ½Ð½Ñ";
+$MESS["TSB1_LOGIN"] = "Ð£Ð²Ñ–Ð¹Ñ‚Ð¸";
+$MESS["TSB1_LOGOUT"] = "Ð’Ð¸Ð¹Ñ‚Ð¸";
+$MESS["TSB1_REGISTER"] = "Ð ÐµÑ”ÑÑ‚Ñ€Ð°Ñ†Ñ–Ñ";
 ?>

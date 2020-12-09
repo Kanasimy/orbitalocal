@@ -414,7 +414,7 @@ if ($normalCount > 0):
                                                                         
                                                                         if($prop->fields['ACTIVE']=='N') {
 									?>
-										<br>под заказ
+										<br>РїРѕРґ Р·Р°РєР°Р·
 									<?
 									}}
 

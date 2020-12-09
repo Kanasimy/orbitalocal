@@ -2,7 +2,7 @@
     'use strict';
     document.addEventListener("DOMContentLoaded", ready);
     function ready() {
-        console.log('готов');
+        console.log('РіРѕС‚РѕРІ');
         var pageNav = document.getElementById('pageNav');
         pageNav.onchange = function(e) {
             console.log(e);

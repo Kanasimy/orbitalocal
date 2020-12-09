@@ -719,12 +719,12 @@ $tabControl->End();
                         for (i = 0; i < rezalt.activ.length; i++) {
                             if (rezalt.activ[i] == 'N') {
                                 var text = note[i].innerHTML;
-                                text = text + '<br>ÔÓ‰ Á‡Í‡Á';
+                                text = text + '<br>–ø–æ–¥ –∑–∞–∫–∞–∑';
                                 note[i].innerHTML = text;
                             }
                         }
                     } else {
-                        alert('Œ¯Ë·Í‡: ' + request.status + ' ' + request.statusText);
+                        alert('–û—à–∏–±–∫–∞: ' + request.status + ' ' + request.statusText);
                     }
                 }
             }

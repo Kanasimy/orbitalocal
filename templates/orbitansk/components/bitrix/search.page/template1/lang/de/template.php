@@ -1,8 +1,8 @@
 <?
-$MESS["CT_BSP_ALL"] = "(überall)";
+$MESS["CT_BSP_ALL"] = "(ÑŒberall)";
 $MESS["CT_BSP_GO"] = "Suchen";
 $MESS["CT_BSP_ITEM_TAGS"] = "Tags";
-$MESS["CT_BSP_DATE_CHANGE"] = "Geändert";
+$MESS["CT_BSP_DATE_CHANGE"] = "GeÐ´ndert";
 $MESS["CT_BSP_FOUND"] = "Gefunden";
 $MESS["CT_BSP_ORDER"] = "Sortiert nach";
 $MESS["CT_BSP_ORDER_BY_RANK"] = "Wichtigkeit";
@@ -11,15 +11,15 @@ $MESS["CT_BSP_ADVANCED_SEARCH"] = "Erweiterte Suche";
 $MESS["CT_BSP_WHERE_LABEL"] = "Suchbereich";
 $MESS["CT_BSP_TAGS"] = "Tags";
 $MESS["CT_BSP_WHERE"] = "Bereiche";
-$MESS["CT_BSP_EVERYWHERE"] = "überall";
+$MESS["CT_BSP_EVERYWHERE"] = "ÑŒberall";
 $MESS["CT_BSP_WHEN"] = "Datum";
 $MESS["CT_BSP_DATES_FROM_TO"] = "von #FROM# bis #TO#";
 $MESS["CT_BSP_DATES_FROM"] = "von #FROM#";
 $MESS["CT_BSP_DATES_TO"] = "bis #TO#";
 $MESS["CT_BSP_DATES_ALL"] = "alle";
-$MESS["CT_BSP_ERROR"] = "Die Suchabfrage enthält einen Fehler:";
-$MESS["CT_BSP_CORRECT_AND_CONTINUE"] = "Bitte überprüfen Sie den Suchbegriff und suchen Sie erneut.";
-$MESS["CT_BSP_SINTAX"] = "<b>Syntax einer Suchanfrage:</b><br /><br />Normalerweise besteht eine Suchanfrage aus einem oder mehreren Wörtern, z.B.: <br/><i>Kontakt Information</i><br/> Auf diese Suchanfrage werden Seiten gefunden, auf denen beide Wörter vorkommen. <br/><br/> Logische Operanden erlauben kompliziertere Suchanfragen, z.B.: <br/><i>Kontakt Information oder Telefon</i><br/> Auf diese Suchanfrage werden Seiten gefunden, auf denen entweder beide Wörter &quot;Kontakt&quot; und &quot;Information&quot;, oder das Wort &quot;Telefon&quot; vorkommen.<br/><br/><i>Kontakt Information nicht Telefon</i><br/> Auf diese Suchanfrage werden Seiten gefunden, auf denen entweder beide Wörter &quot;Kontakt&quot; und &quot;Information&quot; aber nicht &quot;Telefon&quot; vorkommen.<br/> Sie können auch Klammern benutzen, um noch kompliziertere Suchanfragen zu starten.<br />";
+$MESS["CT_BSP_ERROR"] = "Die Suchabfrage enthÐ´lt einen Fehler:";
+$MESS["CT_BSP_CORRECT_AND_CONTINUE"] = "Bitte ÑŒberprÑŒfen Sie den Suchbegriff und suchen Sie erneut.";
+$MESS["CT_BSP_SINTAX"] = "<b>Syntax einer Suchanfrage:</b><br /><br />Normalerweise besteht eine Suchanfrage aus einem oder mehreren WÑ†rtern, z.B.: <br/><i>Kontakt Information</i><br/> Auf diese Suchanfrage werden Seiten gefunden, auf denen beide WÑ†rter vorkommen. <br/><br/> Logische Operanden erlauben kompliziertere Suchanfragen, z.B.: <br/><i>Kontakt Information oder Telefon</i><br/> Auf diese Suchanfrage werden Seiten gefunden, auf denen entweder beide WÑ†rter &quot;Kontakt&quot; und &quot;Information&quot;, oder das Wort &quot;Telefon&quot; vorkommen.<br/><br/><i>Kontakt Information nicht Telefon</i><br/> Auf diese Suchanfrage werden Seiten gefunden, auf denen entweder beide WÑ†rter &quot;Kontakt&quot; und &quot;Information&quot; aber nicht &quot;Telefon&quot; vorkommen.<br/> Sie kÑ†nnen auch Klammern benutzen, um noch kompliziertere Suchanfragen zu starten.<br />";
 $MESS["CT_BSP_LOGIC"] = "Logische Operanden:";
 $MESS["CT_BSP_OPERATOR"] = "Operand";
 $MESS["CT_BSP_SYNONIM"] = "Synonyme";
@@ -32,5 +32,5 @@ $MESS["CT_BSP_NOT"] = "nicht";
 $MESS["CT_BSP_NOT_ALT"] = "Der <i>logische &quot;nicht&quot;</i> Operand durchsucht Seiten, die keine Suchbegriffe, die nach dem Operanden angegeben wurden, enthalten.";
 $MESS["CT_BSP_BRACKETS_ALT"] = "<i>Runde Klammern</i> definieren die Reihenfolge der logischen Operanden.";
 $MESS["CT_BSP_NOTHING_TO_FOUND"] = "Leider wurden keine Ergebnisse auf Ihre Suchanfrage gefunden.";
-$MESS["CT_BSP_KEYBOARD_WARNING"] = "Die Sprache der Suchanfrage wurde für die \"#query#\" gewechselt.";
+$MESS["CT_BSP_KEYBOARD_WARNING"] = "Die Sprache der Suchanfrage wurde fÑŒr die \"#query#\" gewechselt.";
 ?>

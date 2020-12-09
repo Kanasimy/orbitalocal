@@ -10,17 +10,17 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
 	<div class="owl-carousel owl-carousel-home">
         <div class="home-banner tpv">
             <div class="col-md-4 home-banner__description">
-                <h2 class="home-banner__head-discount home-banner__head">Самая выгодная цена среди аналогов!</h2>
+                <h2 class="home-banner__head-discount home-banner__head">РЎР°РјР°СЏ РІС‹РіРѕРґРЅР°СЏ С†РµРЅР° СЃСЂРµРґРё Р°РЅР°Р»РѕРіРѕРІ!</h2>
                 <hr class="home-banner__dividing">
                 <div class="home-banner__text">
                     <p>
-                        Вентилятор "Auto Heater Fan"  с функцией обогрева разморозит заледеневшие стекла
+                        Р’РµРЅС‚РёР»СЏС‚РѕСЂ "Auto Heater Fan"  СЃ С„СѓРЅРєС†РёРµР№ РѕР±РѕРіСЂРµРІР° СЂР°Р·РјРѕСЂРѕР·РёС‚ Р·Р°Р»РµРґРµРЅРµРІС€РёРµ СЃС‚РµРєР»Р°
                     </p>
                     <p>
-                        При покупке покупке 10 штук, вы получаете дополнительную скидку -10%
+                        РџСЂРё РїРѕРєСѓРїРєРµ РїРѕРєСѓРїРєРµ 10 С€С‚СѓРє, РІС‹ РїРѕР»СѓС‡Р°РµС‚Рµ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅСѓСЋ СЃРєРёРґРєСѓ -10%
                     </p>
                 </div>
-                <a href="" class="home-banner__btn btn btn-default btn-lg">купить сейчас</a> <br>
+                <a href="" class="home-banner__btn btn btn-default btn-lg">РєСѓРїРёС‚СЊ СЃРµР№С‡Р°СЃ</a> <br>
             </div>
             <div class="col-lg-7 col-lg-offset-1 col-md-8">
                 <picture>
@@ -28,35 +28,35 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
                     <source media="(min-width: 1340px)" srcset="/local/images/webp/banner-fon-tab-tpv.jpg 1340w, /local/images/webp/banner-fon-tab-tpv.jpg 1000w, /images/webp/banner-fon-tab-tpv.jpg 768w" />
                     <source srcset="/local/images/webp/banner-fon-tpv.webp" />
                     <source srcset="/local/images/banner/banner-fon-tpv.jpg" />
-                    <img src="/local/images/banner/banner-fon-tpv.jpg" alt="Вентилятор Auto Heater Fan - не даст замерзнуть">
+                    <img src="/local/images/banner/banner-fon-tpv.jpg" alt="Р’РµРЅС‚РёР»СЏС‚РѕСЂ Auto Heater Fan - РЅРµ РґР°СЃС‚ Р·Р°РјРµСЂР·РЅСѓС‚СЊ">
                 </picture>
             </div>
         </div>
 		<div class="home-banner mebel">
 			<div class="col-md-8 home-banner__description">
-				<h2 class="home-banner__head-discount home-banner__head">РАСПРОДАЖА! Мебель для ванной комнаты!</h2>
+				<h2 class="home-banner__head-discount home-banner__head">Р РђРЎРџР РћР”РђР–Рђ! РњРµР±РµР»СЊ РґР»СЏ РІР°РЅРЅРѕР№ РєРѕРјРЅР°С‚С‹!</h2>
 				<hr class="home-banner__dividing">
 				<p>
-					 Низкие цены! Скидки до -80%! Цены на представленную мебель фиксированные. Количество товара ограничено!
+					 РќРёР·РєРёРµ С†РµРЅС‹! РЎРєРёРґРєРё РґРѕ -80%! Р¦РµРЅС‹ РЅР° РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅСѓСЋ РјРµР±РµР»СЊ С„РёРєСЃРёСЂРѕРІР°РЅРЅС‹Рµ. РљРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂР° РѕРіСЂР°РЅРёС‡РµРЅРѕ!
 				</p>
 				<hr class="home-banner__dividing">
- <a href="http://orbitansk.ru/catalog/mebel_dlya_vannoy_komnaty_zerkala/" class="home-banner__btn btn btn-default btn-lg hidden-sm">В каталог</a>
+ <a href="http://orbitansk.ru/catalog/mebel_dlya_vannoy_komnaty_zerkala/" class="home-banner__btn btn btn-default btn-lg hidden-sm">Р’ РєР°С‚Р°Р»РѕРі</a>
 			</div>
 			<div class="col-md-4 col-lg-3 col-lg-offset-1 home-banner__fon">
 			</div>
  <br class="visible-sm">
- <a href="http://orbitansk.ru/catalog/mebel_dlya_vannoy_komnaty_zerkala/" class="home-banner__btn btn btn-default btn-lg visible-sm">В каталог</a>
+ <a href="http://orbitansk.ru/catalog/mebel_dlya_vannoy_komnaty_zerkala/" class="home-banner__btn btn btn-default btn-lg visible-sm">Р’ РєР°С‚Р°Р»РѕРі</a>
 		</div>
 		<div class="home-banner tpv">
 			<div class="col-md-4 home-banner__description">
-				<h2 class="home-banner__head-discount home-banner__head">Самая выгодная цена среди аналогов!</h2>
+				<h2 class="home-banner__head-discount home-banner__head">РЎР°РјР°СЏ РІС‹РіРѕРґРЅР°СЏ С†РµРЅР° СЃСЂРµРґРё Р°РЅР°Р»РѕРіРѕРІ!</h2>
 				<hr class="home-banner__dividing">
 				<div class="home-banner__text">
 					<p>
-						 Вентилятор "Auto Heater Fan" с функцией обогрева разморозит заледеневшие стекла
+						 Р’РµРЅС‚РёР»СЏС‚РѕСЂ "Auto Heater Fan" СЃ С„СѓРЅРєС†РёРµР№ РѕР±РѕРіСЂРµРІР° СЂР°Р·РјРѕСЂРѕР·РёС‚ Р·Р°Р»РµРґРµРЅРµРІС€РёРµ СЃС‚РµРєР»Р°
 					</p>
 				</div>
- <a href="" class="home-banner__btn btn btn-default btn-lg">купить сейчас</a> <br>
+ <a href="" class="home-banner__btn btn btn-default btn-lg">РєСѓРїРёС‚СЊ СЃРµР№С‡Р°СЃ</a> <br>
 			</div>
 			<div class="col-lg-7 col-lg-offset-1 col-md-8 home-banner__fon">
 			</div>
@@ -66,57 +66,57 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
  <span class="home-banner__discount_value">-30%</span>
 			</div>
 			<div class="col-md-6 home-banner__description">
-				<h2 class="home-banner__head-discount home-banner__head">Купи больше, плати меньше !!!</h2>
+				<h2 class="home-banner__head-discount home-banner__head">РљСѓРїРё Р±РѕР»СЊС€Рµ, РїР»Р°С‚Рё РјРµРЅСЊС€Рµ !!!</h2>
 				<hr class="home-banner__dividing">
 				<div class="home-banner__text">
 					<p>
-						 При покупке трех оплеток, вы получаете дополнительную скидку -15%
+						 РџСЂРё РїРѕРєСѓРїРєРµ С‚СЂРµС… РѕРїР»РµС‚РѕРє, РІС‹ РїРѕР»СѓС‡Р°РµС‚Рµ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅСѓСЋ СЃРєРёРґРєСѓ -15%
 					</p>
 					<p>
-						 При покупке пяти, вы получаете скидку -30% !
+						 РџСЂРё РїРѕРєСѓРїРєРµ РїСЏС‚Рё, РІС‹ РїРѕР»СѓС‡Р°РµС‚Рµ СЃРєРёРґРєСѓ -30% !
 					</p>
 					<hr class="small">
- <small>*Список оплеток участвующих в акции уточняйте у менеджеров</small>
+ <small>*РЎРїРёСЃРѕРє РѕРїР»РµС‚РѕРє СѓС‡Р°СЃС‚РІСѓСЋС‰РёС… РІ Р°РєС†РёРё СѓС‚РѕС‡РЅСЏР№С‚Рµ Сѓ РјРµРЅРµРґР¶РµСЂРѕРІ</small>
 				</div>
- <a href="http://www.orbitansk.ru/catalog/search.php?q=%EE%EF%EB%E5%F2%EA%E0+%EE%F0%E1%E8%F2%E0&s=" class="home-banner__btn btn btn-default btn-lg">купить сейчас</a> <br>
+ <a href="http://www.orbitansk.ru/catalog/search.php?q=%EE%EF%EB%E5%F2%EA%E0+%EE%F0%E1%E8%F2%E0&s=" class="home-banner__btn btn btn-default btn-lg">РєСѓРїРёС‚СЊ СЃРµР№С‡Р°СЃ</a> <br>
 			</div>
 			<div class="col-md-5 col-md-offset-1 home-banner__fon">
 			</div>
 		</div>
 		<div class="home-banner rvk">
 			<div class="col-md-6 home-banner__description">
-				<h2 class="home-banner__head-discount home-banner__head">Трубы полипропиленовые РВК</h2>
+				<h2 class="home-banner__head-discount home-banner__head">РўСЂСѓР±С‹ РїРѕР»РёРїСЂРѕРїРёР»РµРЅРѕРІС‹Рµ Р Р’Рљ</h2>
 				<hr class="home-banner__dividing">
 				<p>
-					 Трубы и фитинги РВК применяют в системах холодного и горячего водоснабжения, в системах отопления, водоподготовки, пневмопроходах, канализации и технологических трубопроводах.
+					 РўСЂСѓР±С‹ Рё С„РёС‚РёРЅРіРё Р Р’Рљ РїСЂРёРјРµРЅСЏСЋС‚ РІ СЃРёСЃС‚РµРјР°С… С…РѕР»РѕРґРЅРѕРіРѕ Рё РіРѕСЂСЏС‡РµРіРѕ РІРѕРґРѕСЃРЅР°Р±Р¶РµРЅРёСЏ, РІ СЃРёСЃС‚РµРјР°С… РѕС‚РѕРїР»РµРЅРёСЏ, РІРѕРґРѕРїРѕРґРіРѕС‚РѕРІРєРё, РїРЅРµРІРјРѕРїСЂРѕС…РѕРґР°С…, РєР°РЅР°Р»РёР·Р°С†РёРё Рё С‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёС… С‚СЂСѓР±РѕРїСЂРѕРІРѕРґР°С….
 				</p>
 				<hr class="home-banner__dividing">
- <a href="http://www.orbitansk.ru/catalog/truboprovod_polipropilenovyy_rvk/" class="home-banner__btn btn btn-default btn-lg hidden-sm">В каталог</a>
+ <a href="http://www.orbitansk.ru/catalog/truboprovod_polipropilenovyy_rvk/" class="home-banner__btn btn btn-default btn-lg hidden-sm">Р’ РєР°С‚Р°Р»РѕРі</a>
 			</div>
 			<div class="col-md-5 col-md-offset-1 home-banner__fon">
 			</div>
  <br class="visible-sm">
- <a href="http://www.orbitansk.ru/catalog/truboprovod_polipropilenovyy_rvk/" class="home-banner__btn btn btn-default btn-lg visible-sm">В каталог</a>
+ <a href="http://www.orbitansk.ru/catalog/truboprovod_polipropilenovyy_rvk/" class="home-banner__btn btn btn-default btn-lg visible-sm">Р’ РєР°С‚Р°Р»РѕРі</a>
 		</div>
 		<div class="home-banner sl">
 			<div class="col-md-6 home-banner__description">
-				<h2 class="home-banner__head-discount home-banner__head">Салфетки из микрофибры</h2>
+				<h2 class="home-banner__head-discount home-banner__head">РЎР°Р»С„РµС‚РєРё РёР· РјРёРєСЂРѕС„РёР±СЂС‹</h2>
 				<hr class="home-banner__dividing">
 				<p>
-					 Ведущая технология!
+					 Р’РµРґСѓС‰Р°СЏ С‚РµС…РЅРѕР»РѕРіРёСЏ!
 				</p>
 				<ul class="list">
-					<li>Универсальны</li>
-					<li>Прочны и долговечны</li>
-					<li>Незаменимы для уборки пыли, грязи, любых жидкостей и масел.</li>
+					<li>РЈРЅРёРІРµСЂСЃР°Р»СЊРЅС‹</li>
+					<li>РџСЂРѕС‡РЅС‹ Рё РґРѕР»РіРѕРІРµС‡РЅС‹</li>
+					<li>РќРµР·Р°РјРµРЅРёРјС‹ РґР»СЏ СѓР±РѕСЂРєРё РїС‹Р»Рё, РіСЂСЏР·Рё, Р»СЋР±С‹С… Р¶РёРґРєРѕСЃС‚РµР№ Рё РјР°СЃРµР».</li>
 				</ul>
 				<hr class="home-banner__dividing">
- <a href="http://www.orbitansk.ru/catalog/avtoprinadlezhnosti/salfetki_iz_mikrofibry_nabor_30_30sm_10_sht_5_tsvetov_universalnye/" class="home-banner__btn btn btn-default btn-lg hidden-sm">купить сейчас</a>
+ <a href="http://www.orbitansk.ru/catalog/avtoprinadlezhnosti/salfetki_iz_mikrofibry_nabor_30_30sm_10_sht_5_tsvetov_universalnye/" class="home-banner__btn btn btn-default btn-lg hidden-sm">РєСѓРїРёС‚СЊ СЃРµР№С‡Р°СЃ</a>
 			</div>
 			<div class="col-md-5 col-md-offset-1 home-banner__fon">
 			</div>
  <br class="visible-sm">
- <a href="http://www.orbitansk.ru/catalog/avtoprinadlezhnosti/salfetki_iz_mikrofibry_nabor_30_30sm_10_sht_5_tsvetov_universalnye/" class="home-banner__btn btn btn-default btn-lg visible-sm">купить сейчас</a>
+ <a href="http://www.orbitansk.ru/catalog/avtoprinadlezhnosti/salfetki_iz_mikrofibry_nabor_30_30sm_10_sht_5_tsvetov_universalnye/" class="home-banner__btn btn btn-default btn-lg visible-sm">РєСѓРїРёС‚СЊ СЃРµР№С‡Р°СЃ</a>
 		</div>
 	</div>
 </div>

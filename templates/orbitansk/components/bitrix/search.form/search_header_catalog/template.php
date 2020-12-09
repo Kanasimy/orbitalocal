@@ -12,7 +12,7 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);?>
 <form action="<?=$arResult["FORM_ACTION"]?>" class="top-navigation__search">
-                <input class="form-control" type="text" name="q"  value="" placeholder="Поиск по каталогу">
+                <input class="form-control" type="text" name="q"  value="" placeholder="РџРѕРёСЃРє РїРѕ РєР°С‚Р°Р»РѕРіСѓ">
 
                     <button type="submit" name='s' class="top-navigation__btn" value="">
                         <svg class="top-navigation__btn icons icon-search">

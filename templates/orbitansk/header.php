@@ -103,7 +103,7 @@ IncludeTemplateLangFile(__FILE__);
 );?>
                 <!-- Toggle get grouped for better mobile display -->
                 <button type="button" class="navbar-toggle collapsed top-navigation__navbar-toggle" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                    <span class="sr-only">Μενώ</span>
+                    <span class="sr-only">ΞΞµΞ½Ο</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>

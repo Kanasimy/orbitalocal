@@ -1,3 +1,3 @@
 <?
-$MESS["CT_GIFTS_SECTION_LIST_BLOCK_TITLE_DEFAULT"] = "Geschenke für Produkte in diesem Katalog";
+$MESS["CT_GIFTS_SECTION_LIST_BLOCK_TITLE_DEFAULT"] = "Geschenke fÑŒr Produkte in diesem Katalog";
 ?>

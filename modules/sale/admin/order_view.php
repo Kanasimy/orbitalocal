@@ -538,7 +538,7 @@ var        rezalt=JSON.parse(request.responseText);
         for (i=0;i<rezalt.activ.length;i++){
 if (rezalt.activ[i]=='N'){
         var text=note[i].innerHTML;
-    text=text+'<br><strong>под заказ</strong>';
+    text=text+'<br><strong>РїРѕРґ Р·Р°РєР°Р·</strong>';
     note[i].innerHTML=text;
      }
   }

@@ -1,16 +1,16 @@
 <?
-$MESS["SALE_PROPERTIES_RECALCULATE_BASKET"] = "Ñâîéñòâà, âëèÿþùèå íà ïåðåñ÷åò êîðçèíû";
-$MESS["CP_SBB_TPL_THEME_SITE"] = "Áðàòü òåìó èç íàñòðîåê ñàéòà (äëÿ ðåøåíèÿ bitrix.eshop)";
-$MESS["CP_SBB_TPL_THEME_BLUE"] = "ñèíÿÿ (òåìà ïî óìîë÷àíèþ)";
-$MESS["CP_SBB_TPL_THEME_GREEN"] = "çåëåíàÿ";
-$MESS["CP_SBB_TPL_THEME_RED"] = "êðàñíàÿ";
-$MESS["CP_SBB_TPL_THEME_WOOD"] = "äåðåâî";
-$MESS["CP_SBB_TPL_THEME_YELLOW"] = "æåëòàÿ";
-$MESS["CP_SBB_TPL_THEME_BLACK"] = "òåìíàÿ";
-$MESS["CP_SBB_TPL_TEMPLATE_THEME"] = "Öâåòîâàÿ òåìà";
-$MESS["CP_SBB_TPL_USE_ENHANCED_ECOMMERCE"] = "Îòïðàâëÿòü äàííûå ýëåêòðîííîé òîðãîâëè â Google è ßíäåêñ";
-$MESS["USE_ENHANCED_ECOMMERCE_TIP"] = "Òðåáóåòñÿ äîïîëíèòåëüíàÿ íàñòðîéêà â Google Analytics Enhanced 
-Ecommerce è/èëè ßíäåêñ.Ìåòðèêå";
-$MESS["CP_SBB_TPL_DATA_LAYER_NAME"] = "Èìÿ êîíòåéíåðà äàííûõ";
-$MESS["CP_SBB_TPL_BRAND_PROPERTY"] = "Ñâîéñòâî áðåíäîâ";
+$MESS["SALE_PROPERTIES_RECALCULATE_BASKET"] = "Ð¡Ð²Ð¾Ð¹ÑÑ‚Ð²Ð°, Ð²Ð»Ð¸ÑÑŽÑ‰Ð¸Ðµ Ð½Ð° Ð¿ÐµÑ€ÐµÑÑ‡ÐµÑ‚ ÐºÐ¾Ñ€Ð·Ð¸Ð½Ñ‹";
+$MESS["CP_SBB_TPL_THEME_SITE"] = "Ð‘Ñ€Ð°Ñ‚ÑŒ Ñ‚ÐµÐ¼Ñƒ Ð¸Ð· Ð½Ð°ÑÑ‚Ñ€Ð¾ÐµÐº ÑÐ°Ð¹Ñ‚Ð° (Ð´Ð»Ñ Ñ€ÐµÑˆÐµÐ½Ð¸Ñ bitrix.eshop)";
+$MESS["CP_SBB_TPL_THEME_BLUE"] = "ÑÐ¸Ð½ÑÑ (Ñ‚ÐµÐ¼Ð° Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ)";
+$MESS["CP_SBB_TPL_THEME_GREEN"] = "Ð·ÐµÐ»ÐµÐ½Ð°Ñ";
+$MESS["CP_SBB_TPL_THEME_RED"] = "ÐºÑ€Ð°ÑÐ½Ð°Ñ";
+$MESS["CP_SBB_TPL_THEME_WOOD"] = "Ð´ÐµÑ€ÐµÐ²Ð¾";
+$MESS["CP_SBB_TPL_THEME_YELLOW"] = "Ð¶ÐµÐ»Ñ‚Ð°Ñ";
+$MESS["CP_SBB_TPL_THEME_BLACK"] = "Ñ‚ÐµÐ¼Ð½Ð°Ñ";
+$MESS["CP_SBB_TPL_TEMPLATE_THEME"] = "Ð¦Ð²ÐµÑ‚Ð¾Ð²Ð°Ñ Ñ‚ÐµÐ¼Ð°";
+$MESS["CP_SBB_TPL_USE_ENHANCED_ECOMMERCE"] = "ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð»ÑÑ‚ÑŒ Ð´Ð°Ð½Ð½Ñ‹Ðµ ÑÐ»ÐµÐºÑ‚Ñ€Ð¾Ð½Ð½Ð¾Ð¹ Ñ‚Ð¾Ñ€Ð³Ð¾Ð²Ð»Ð¸ Ð² Google Ð¸ Ð¯Ð½Ð´ÐµÐºÑ";
+$MESS["USE_ENHANCED_ECOMMERCE_TIP"] = "Ð¢Ñ€ÐµÐ±ÑƒÐµÑ‚ÑÑ Ð´Ð¾Ð¿Ð¾Ð»Ð½Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð°Ñ Ð½Ð°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ° Ð² Google Analytics Enhanced 
+Ecommerce Ð¸/Ð¸Ð»Ð¸ Ð¯Ð½Ð´ÐµÐºÑ.ÐœÐµÑ‚Ñ€Ð¸ÐºÐµ";
+$MESS["CP_SBB_TPL_DATA_LAYER_NAME"] = "Ð˜Ð¼Ñ ÐºÐ¾Ð½Ñ‚ÐµÐ¹Ð½ÐµÑ€Ð° Ð´Ð°Ð½Ð½Ñ‹Ñ…";
+$MESS["CP_SBB_TPL_BRAND_PROPERTY"] = "Ð¡Ð²Ð¾Ð¹ÑÑ‚Ð²Ð¾ Ð±Ñ€ÐµÐ½Ð´Ð¾Ð²";
 ?>

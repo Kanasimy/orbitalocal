@@ -2,7 +2,7 @@
 $MESS["CATALOG_ADD_TO_BASKET"] = "In Warenkorb";
 $MESS["CATALOG_MORE_PHOTO"] = "Weiteres Foto";
 $MESS["CATALOG_DOWNLOAD"] = "Download";
-$MESS["CATALOG_BACK"] = "Zurück zum Bereich";
+$MESS["CATALOG_BACK"] = "ZurÑŒck zum Bereich";
 $MESS["CATALOG_BUY"] = "Kaufen";
 $MESS["CATALOG_NOT_AVAILABLE"] = "(nicht auf Lager)";
 $MESS["CATALOG_QUANTITY"] = "Anzahl";

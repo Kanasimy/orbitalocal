@@ -1,3 +1,3 @@
 <?
-$MESS["CATALOG_PERSONAL_RECOM"] = "Persönliche Empfehlungen";
+$MESS["CATALOG_PERSONAL_RECOM"] = "PersÑ†nliche Empfehlungen";
 ?>

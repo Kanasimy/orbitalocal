@@ -16,13 +16,13 @@ if ($arResult['SHOW_ERRORS'] == 'Y' && $arResult['ERROR'])
                     <svg class="icons icon-log-in">
                         <use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#log-in"></use>
                     </svg>
-Войти
+Р’РѕР№С‚Рё
 </div>
 <div class="top-line__registration" id="registration">
     <svg class="icons icon-user">
         <use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#user"></use>
     </svg>
-    <a style="color:#fff" href="/auth/index.php">Регистрация</a></div>
+    <a style="color:#fff" href="/auth/index.php">Р РµРіРёСЃС‚СЂР°С†РёСЏ</a></div>
 </div>
     <? else:
     ?>
@@ -31,7 +31,7 @@ if ($arResult['SHOW_ERRORS'] == 'Y' && $arResult['ERROR'])
         <div class="top-line__login">
             <svg class="icons icon-log-in">
                 <use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#log-in"></use>
-            </svg><input type="submit" class="link" name="logout_butt" value="Выйти" />
+            </svg><input type="submit" class="link" name="logout_butt" value="Р’С‹Р№С‚Рё" />
         </div>
         <div class="top-line__registration">
             <svg class="icons icon-user">

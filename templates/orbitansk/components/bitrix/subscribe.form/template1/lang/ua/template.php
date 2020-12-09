@@ -1,4 +1,4 @@
 <?
-$MESS["subscr_form_email_title"] = "Ââåä³òü âàø e-mail";
-$MESS["subscr_form_button"] = "Ï³äïèñàòèñÿ";
+$MESS["subscr_form_email_title"] = "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð²Ð°Ñˆ e-mail";
+$MESS["subscr_form_button"] = "ÐŸÑ–Ð´Ð¿Ð¸ÑÐ°Ñ‚Ð¸ÑÑ";
 ?>

@@ -4,13 +4,13 @@ $MESS["SOA_NO"] = "nein";
 $MESS["SOA_DO_SOC_SERV"] = "Via soziale Netzwerke einloggen";
 $MESS["SOA_NOT_FOUND"] = "Nicht gefunden";
 $MESS["SOA_NOT_SPECIFIED"] = "nicht angegeben";
-$MESS["SOA_NOT_SELECTED"] = "nicht ausgewählt";
+$MESS["SOA_NOT_SELECTED"] = "nicht ausgewÐ´hlt";
 $MESS["SOA_NOT_CALCULATED"] = "nicht berechnet";
-$MESS["SOA_PS_SELECT_ERROR"] = "Zahlungssystem nicht ausgewählt";
-$MESS["SOA_DELIVERY_SELECT_ERROR"] = "Lieferservice nicht ausgewählt";
+$MESS["SOA_PS_SELECT_ERROR"] = "Zahlungssystem nicht ausgewÐ´hlt";
+$MESS["SOA_DELIVERY_SELECT_ERROR"] = "Lieferservice nicht ausgewÐ´hlt";
 $MESS["SOA_PICKUP_PHONE"] = "Telefon";
 $MESS["SOA_PICKUP_ADDRESS"] = "Adresse";
-$MESS["SOA_PICKUP_WORK"] = "Öffnungszeiten";
+$MESS["SOA_PICKUP_WORK"] = "Ð¦ffnungszeiten";
 $MESS["SOA_PICKUP_STORE"] = "Lager";
 $MESS["SOA_PICKUP_EMAIL"] = "E-Mail";
 $MESS["SOA_PICKUP_DESC"] = "Beschreibung";
@@ -20,8 +20,8 @@ $MESS["SOA_ORDER_PROPS"] = "Bestelleigenschaften";
 $MESS["SOA_FIELD"] = "Feld";
 $MESS["SOA_REQUIRED"] = "Dieses Feld ist erforderlich";
 $MESS["SOA_INVALID_EMAIL"] = "E-Mail ist nicht korrekt";
-$MESS["SOA_MIN_LENGTH"] = "Min. Feldlänge";
-$MESS["SOA_MAX_LENGTH"] = "Max. Feldlänge";
+$MESS["SOA_MIN_LENGTH"] = "Min. FeldlÐ´nge";
+$MESS["SOA_MAX_LENGTH"] = "Max. FeldlÐ´nge";
 $MESS["SOA_NOT_NUMERIC"] = "Nur Zahlen";
 $MESS["SOA_MIN_VALUE"] = "Min. Feldwert";
 $MESS["SOA_MAX_VALUE"] = "Max. Feldwert";
@@ -36,7 +36,7 @@ $MESS["SOA_PAY_ACCOUNT3"] = "Ihre Mittel sind ausreichen, um die Bestellung komp
 $MESS["SOA_DELIVERY"] = "Lieferservices";
 $MESS["SOA_ORDER_SUC"] = "Ihre Bestellung <b>##ORDER_ID#</b> vom #ORDER_DATE# wurde erfolgreich erstellt.";
 $MESS["SOA_PAYMENT_SUC"] = "Bezahlung <b>##PAYMENT_ID#</b>";
-$MESS["SOA_ORDER_SUC1"] = "Sie können Ihre Bestellung in Ihrem <a href=\"#LINK#\">persönlichen Account</a> verfolgen. Sie werden Ihren Login und Ihr Passwort eingeben müssen, um auf Ihren eigenen Account zugreifen zu können.";
+$MESS["SOA_ORDER_SUC1"] = "Sie kÑ†nnen Ihre Bestellung in Ihrem <a href=\"#LINK#\">persÑ†nlichen Account</a> verfolgen. Sie werden Ihren Login und Ihr Passwort eingeben mÑŒssen, um auf Ihren eigenen Account zugreifen zu kÑ†nnen.";
 $MESS["SOA_PAY"] = "Bezahlung der Bestellung";
 $MESS["SOA_PAY_LINK"] = "Sehen Sie keine Zahlungsinformationen, klicken Sie hier: <a href=\"#LINK#\" target=\"_blank\">Bestellung bezahlen und abgeben</a>.";
 $MESS["SOA_PAY_PDF"] = "Klicken Sie auf <a href=\"#LINK#\" target=\"_blank\">Rechnung herunterladen</a> um die Rechnung im PDF-Format zu erhalten.";
@@ -77,13 +77,13 @@ $MESS["STOF_MY_PASSWORD"] = "Ihre Login und Passwort";
 $MESS["STOF_RE_PASSWORD"] = "Passwort wiederholen";
 $MESS["STOF_SYS_PASSWORD"] = "Login und Passwort generieren";
 $MESS["SALE_SADC_TRANSIT"] = "Lieferzeit";
-$MESS["SOA_NO_JS"] = "Der Bestellprozess verlangt, dass JavaScript in Ihrem System aktiviert ist. JavaScript ist deaktiviert oder wird von Ihrem Browser nicht unterstützt. Ändern Sie bitte die Browsereinstellungen und <a href=\"\">versuchen Sie erneut</a>.";
-$MESS["SOA_PAYSYSTEM_PRICE"] = "Zusätzliche Nachnahme:";
+$MESS["SOA_NO_JS"] = "Der Bestellprozess verlangt, dass JavaScript in Ihrem System aktiviert ist. JavaScript ist deaktiviert oder wird von Ihrem Browser nicht unterstÑŒtzt. Ð”ndern Sie bitte die Browsereinstellungen und <a href=\"\">versuchen Sie erneut</a>.";
+$MESS["SOA_PAYSYSTEM_PRICE"] = "ZusÐ´tzliche Nachnahme:";
 $MESS["SOA_OTHER_LOCATION"] = "Anderer Standort";
 $MESS["SOA_LOCATION_NOT_FOUND"] = "Standort wurde nicht gefunden";
-$MESS["SOA_LOCATION_NOT_FOUND_PROMPT"] = "Klicken Sie auf #ANCHOR#Standort hinzufügen#ANCHOR_END# damit wir wissen, wohin Ihre Bestellung geliefert werden soll";
+$MESS["SOA_LOCATION_NOT_FOUND_PROMPT"] = "Klicken Sie auf #ANCHOR#Standort hinzufÑŒgen#ANCHOR_END# damit wir wissen, wohin Ihre Bestellung geliefert werden soll";
 $MESS["SOA_NOT_SELECTED_ALT"] = "Standort konkreter angeben, wenn erforderlich";
-$MESS["SOA_ORDER_PS_ERROR"] = "Die ausgewählte Zahlungsmethode ist fehlgeschlagen. Wenden Sie sich bitte an den Administrator des Onlineshops oder wählen Sie eine andere Methode aus.";
+$MESS["SOA_ORDER_PS_ERROR"] = "Die ausgewÐ´hlte Zahlungsmethode ist fehlgeschlagen. Wenden Sie sich bitte an den Administrator des Onlineshops oder wÐ´hlen Sie eine andere Methode aus.";
 $MESS["AUTH_BLOCK_NAME_DEFAULT"] = "Einloggen";
 $MESS["REG_BLOCK_NAME_DEFAULT"] = "Registrieren";
 $MESS["BASKET_BLOCK_NAME_DEFAULT"] = "Warenkorb";
@@ -91,46 +91,46 @@ $MESS["REGION_BLOCK_NAME_DEFAULT"] = "Lieferregion";
 $MESS["PAYMENT_BLOCK_NAME_DEFAULT"] = "Bezahlung";
 $MESS["DELIVERY_BLOCK_NAME_DEFAULT"] = "Lieferung";
 $MESS["BUYER_BLOCK_NAME_DEFAULT"] = "Kunde";
-$MESS["BACK_DEFAULT"] = "Zurück";
+$MESS["BACK_DEFAULT"] = "ZurÑŒck";
 $MESS["FURTHER_DEFAULT"] = "Weiter";
-$MESS["EDIT_DEFAULT"] = "ändern";
+$MESS["EDIT_DEFAULT"] = "Ð´ndern";
 $MESS["ORDER_DEFAULT"] = "Checkout";
-$MESS["ADD_DEFAULT"] = "Hinzufügen";
+$MESS["ADD_DEFAULT"] = "HinzufÑŒgen";
 $MESS["PRICE_DEFAULT"] = "Preis";
 $MESS["PERIOD_DEFAULT"] = "Lieferzeit";
-$MESS["NAV_BACK_DEFAULT"] = "Zurück";
+$MESS["NAV_BACK_DEFAULT"] = "ZurÑŒck";
 $MESS["NAV_FORWARD_DEFAULT"] = "Weiter";
 $MESS["REGISTRATION_REFERENCE_DEFAULT"] = "Registrieren Sie sich bitte, um bessere Erfahrungen zu sammeln und Ihre Bestell-History zu verfolgen.";
 $MESS["AUTH_REFERENCE_1_DEFAULT"] = "Die mit \"*\" markierten Felder sind erforderlich.";
 $MESS["AUTH_REFERENCE_2_DEFAULT"] = "Sie werden eine Benachrichtigung erhalten, nachdem Ihre Registrierung abgeschlossen wird.";
-$MESS["AUTH_REFERENCE_3_DEFAULT"] = "Ihre persönlichen Daten, welche bei Registrierung, Bestellung oder anders erhalten wurden, werden niemals an dritte Parteien verkauft  oder weitergegeben, sofern nicht eine entsprechende Gerichtsentscheidung vorliegt.";
-$MESS["ADDITIONAL_PROPS_DEFAULT"] = "Zusätzliche Eigenschaften";
+$MESS["AUTH_REFERENCE_3_DEFAULT"] = "Ihre persÑ†nlichen Daten, welche bei Registrierung, Bestellung oder anders erhalten wurden, werden niemals an dritte Parteien verkauft  oder weitergegeben, sofern nicht eine entsprechende Gerichtsentscheidung vorliegt.";
+$MESS["ADDITIONAL_PROPS_DEFAULT"] = "ZusÐ´tzliche Eigenschaften";
 $MESS["USE_COUPON_DEFAULT"] = "Gutschein anwenden";
 $MESS["COUPON_DEFAULT"] = "Gutschein";
 $MESS["PERSON_TYPE_DEFAULT"] = "Kundengruppe";
-$MESS["SELECT_PROFILE_DEFAULT"] = "Profil auswählen";
-$MESS["REGION_REFERENCE_DEFAULT"] = "Wählen Sie Ihre Stadt in der Liste aus. Können Sie die Stadt nicht finden, wählen Sie \"anderer Standort\" aus und geben Sie dort Ihre Stadt im Feld \"Stadt\" ein.";
+$MESS["SELECT_PROFILE_DEFAULT"] = "Profil auswÐ´hlen";
+$MESS["REGION_REFERENCE_DEFAULT"] = "WÐ´hlen Sie Ihre Stadt in der Liste aus. KÑ†nnen Sie die Stadt nicht finden, wÐ´hlen Sie \"anderer Standort\" aus und geben Sie dort Ihre Stadt im Feld \"Stadt\" ein.";
 $MESS["PICKUP_LIST_DEFAULT"] = "Abholungsstandorte:";
-$MESS["NEAREST_PICKUP_LIST_DEFAULT"] = "Nächste Standorte:";
-$MESS["SELECT_PICKUP_DEFAULT"] = "Auswählen";
+$MESS["NEAREST_PICKUP_LIST_DEFAULT"] = "NÐ´chste Standorte:";
+$MESS["SELECT_PICKUP_DEFAULT"] = "AuswÐ´hlen";
 $MESS["INNER_PS_BALANCE_DEFAULT"] = "Ihr Guthaben:";
 $MESS["ORDER_DESC_DEFAULT"] = "Kommentare zur Bestellung:";
-$MESS["SELECT_FILE_DEFAULT"] = "Auswählen";
-$MESS["SUCCESS_PRELOAD_TEXT_DEFAULT"] = "Sie haben bei uns früher eingekauft, und wir können uns an Sie erinnern, deshalb haben wir uns erlaubt, Felder für
- Sie auszufüllen.<br />
+$MESS["SELECT_FILE_DEFAULT"] = "AuswÐ´hlen";
+$MESS["SUCCESS_PRELOAD_TEXT_DEFAULT"] = "Sie haben bei uns frÑŒher eingekauft, und wir kÑ†nnen uns an Sie erinnern, deshalb haben wir uns erlaubt, Felder fÑŒr
+ Sie auszufÑŒllen.<br />
 Sind die Informationen korrekt, klicken Sie auf \"#ORDER_BUTTON#\".
 ";
-$MESS["FAIL_PRELOAD_TEXT_DEFAULT"] = "Sie haben bei uns früher eingekauft, und wir können uns an Sie erinnern, deshalb haben wir uns erlaubt, Felder für
- Sie auszufüllen.<br />
-Überprüfen Sie bitte die Bestellinformationen und ändern Sie diese, wenn erforderlich. Wenn alles stimmt, klicken Sie auf \"#ORDER_BUTTON#\".
+$MESS["FAIL_PRELOAD_TEXT_DEFAULT"] = "Sie haben bei uns frÑŒher eingekauft, und wir kÑ†nnen uns an Sie erinnern, deshalb haben wir uns erlaubt, Felder fÑŒr
+ Sie auszufÑŒllen.<br />
+Ð¬berprÑŒfen Sie bitte die Bestellinformationen und Ð´ndern Sie diese, wenn erforderlich. Wenn alles stimmt, klicken Sie auf \"#ORDER_BUTTON#\".
 ";
 $MESS["DELIVERY_CALC_ERROR_TITLE_DEFAULT"] = "Lieferpreis kann nicht berechnet werden.";
-$MESS["DELIVERY_CALC_ERROR_TEXT_DEFAULT"] = "Sie können Checkout fortsetzen. Unsere Mitarbeiter werden sich mit Ihnen wegen Lieferung in Verbindung setzen.";
+$MESS["DELIVERY_CALC_ERROR_TEXT_DEFAULT"] = "Sie kÑ†nnen Checkout fortsetzen. Unsere Mitarbeiter werden sich mit Ihnen wegen Lieferung in Verbindung setzen.";
 $MESS["EMPTY_BASKET_TITLE"] = "Ihr Warenkorb ist leer.";
 $MESS["EMPTY_BASKET_HINT"] = "#A1#Klicken Sie hier#A2# um weiter einzukaufen";
-$MESS["SOA_BAD_EXTENSION"] = "Ungültiger Dateityp";
-$MESS["SOA_MAX_SIZE"] = "Max. Dateigröße überschritten";
-$MESS["PAY_SYSTEM_PAYABLE_ERROR_DEFAULT"] = "Sie werden die Bestellung bezahlen können, nachdem wir feststellen, dass die von Ihnen bestellte Produkte am Lager sind. Wird Ihre Bestellung erfüllt, erhalten Sie eine E-Mail mit Zahlungsanweisungen. Sie werden dann die Bestellung innerhalb Ihres Accounts abschließen können.";
+$MESS["SOA_BAD_EXTENSION"] = "UngÑŒltiger Dateityp";
+$MESS["SOA_MAX_SIZE"] = "Max. DateigrÑ†Ð¯e ÑŒberschritten";
+$MESS["PAY_SYSTEM_PAYABLE_ERROR_DEFAULT"] = "Sie werden die Bestellung bezahlen kÑ†nnen, nachdem wir feststellen, dass die von Ihnen bestellte Produkte am Lager sind. Wird Ihre Bestellung erfÑŒllt, erhalten Sie eine E-Mail mit Zahlungsanweisungen. Sie werden dann die Bestellung innerhalb Ihres Accounts abschlieÐ¯en kÑ†nnen.";
 $MESS["PRICE_FREE_DEFAULT"] = "kostenlos";
 $MESS["ECONOMY_DEFAULT"] = "Sie sparen";
 ?>

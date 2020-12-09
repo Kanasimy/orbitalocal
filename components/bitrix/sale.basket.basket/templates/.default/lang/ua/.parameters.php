@@ -1,16 +1,16 @@
 <?
-$MESS["SALE_PROPERTIES_RECALCULATE_BASKET"] = "Âëàñòèâîñò³, ùî âïëèâàþòü íà ïåðåðàõóíîê êîøèêà";
-$MESS["CP_SBB_TPL_THEME_SITE"] = "Áðàòè òåìó ç íàëàøòóâàíü ñàéòó (äëÿ âèð³øåííÿ bitrix.eshop)";
-$MESS["CP_SBB_TPL_THEME_BLUE"] = "ñèíÿ (òåìà çà çàìîâ÷óâàííÿì)";
-$MESS["CP_SBB_TPL_THEME_GREEN"] = "çåëåíà";
-$MESS["CP_SBB_TPL_THEME_RED"] = "÷åðâîíà";
-$MESS["CP_SBB_TPL_THEME_WOOD"] = "äåðåâî";
-$MESS["CP_SBB_TPL_THEME_YELLOW"] = "æîâòà";
-$MESS["CP_SBB_TPL_THEME_BLACK"] = "òåìíà";
-$MESS["CP_SBB_TPL_TEMPLATE_THEME"] = "Êîë³ðíà òåìà";
-$MESS["CP_SBB_TPL_USE_ENHANCED_ECOMMERCE"] = "Íàäñèëàòè äàí³ åëåêòðîííî¿ òîðã³âë³ â Google ³ ßíäåêñ";
-$MESS["USE_ENHANCED_ECOMMERCE_TIP"] = "Ïîòð³áíå äîäàòêîâå íàëàøòóâàííÿ â Google Analytics Enhanced 
-Ecommerce òà/àáî ßíäåêñ.Ìåòðèö³";
-$MESS["CP_SBB_TPL_DATA_LAYER_NAME"] = "²ì'ÿ êîíòåéíåðà äàíèõ";
-$MESS["CP_SBB_TPL_BRAND_PROPERTY"] = "Âëàñòèâ³ñòü áðåíä³â";
+$MESS["SALE_PROPERTIES_RECALCULATE_BASKET"] = "Ð’Ð»Ð°ÑÑ‚Ð¸Ð²Ð¾ÑÑ‚Ñ–, Ñ‰Ð¾ Ð²Ð¿Ð»Ð¸Ð²Ð°ÑŽÑ‚ÑŒ Ð½Ð° Ð¿ÐµÑ€ÐµÑ€Ð°Ñ…ÑƒÐ½Ð¾Ðº ÐºÐ¾ÑˆÐ¸ÐºÐ°";
+$MESS["CP_SBB_TPL_THEME_SITE"] = "Ð‘Ñ€Ð°Ñ‚Ð¸ Ñ‚ÐµÐ¼Ñƒ Ð· Ð½Ð°Ð»Ð°ÑˆÑ‚ÑƒÐ²Ð°Ð½ÑŒ ÑÐ°Ð¹Ñ‚Ñƒ (Ð´Ð»Ñ Ð²Ð¸Ñ€Ñ–ÑˆÐµÐ½Ð½Ñ bitrix.eshop)";
+$MESS["CP_SBB_TPL_THEME_BLUE"] = "ÑÐ¸Ð½Ñ (Ñ‚ÐµÐ¼Ð° Ð·Ð° Ð·Ð°Ð¼Ð¾Ð²Ñ‡ÑƒÐ²Ð°Ð½Ð½ÑÐ¼)";
+$MESS["CP_SBB_TPL_THEME_GREEN"] = "Ð·ÐµÐ»ÐµÐ½Ð°";
+$MESS["CP_SBB_TPL_THEME_RED"] = "Ñ‡ÐµÑ€Ð²Ð¾Ð½Ð°";
+$MESS["CP_SBB_TPL_THEME_WOOD"] = "Ð´ÐµÑ€ÐµÐ²Ð¾";
+$MESS["CP_SBB_TPL_THEME_YELLOW"] = "Ð¶Ð¾Ð²Ñ‚Ð°";
+$MESS["CP_SBB_TPL_THEME_BLACK"] = "Ñ‚ÐµÐ¼Ð½Ð°";
+$MESS["CP_SBB_TPL_TEMPLATE_THEME"] = "ÐšÐ¾Ð»Ñ–Ñ€Ð½Ð° Ñ‚ÐµÐ¼Ð°";
+$MESS["CP_SBB_TPL_USE_ENHANCED_ECOMMERCE"] = "ÐÐ°Ð´ÑÐ¸Ð»Ð°Ñ‚Ð¸ Ð´Ð°Ð½Ñ– ÐµÐ»ÐµÐºÑ‚Ñ€Ð¾Ð½Ð½Ð¾Ñ— Ñ‚Ð¾Ñ€Ð³Ñ–Ð²Ð»Ñ– Ð² Google Ñ– Ð¯Ð½Ð´ÐµÐºÑ";
+$MESS["USE_ENHANCED_ECOMMERCE_TIP"] = "ÐŸÐ¾Ñ‚Ñ€Ñ–Ð±Ð½Ðµ Ð´Ð¾Ð´Ð°Ñ‚ÐºÐ¾Ð²Ðµ Ð½Ð°Ð»Ð°ÑˆÑ‚ÑƒÐ²Ð°Ð½Ð½Ñ Ð² Google Analytics Enhanced 
+Ecommerce Ñ‚Ð°/Ð°Ð±Ð¾ Ð¯Ð½Ð´ÐµÐºÑ.ÐœÐµÑ‚Ñ€Ð¸Ñ†Ñ–";
+$MESS["CP_SBB_TPL_DATA_LAYER_NAME"] = "Ð†Ð¼'Ñ ÐºÐ¾Ð½Ñ‚ÐµÐ¹Ð½ÐµÑ€Ð° Ð´Ð°Ð½Ð¸Ñ…";
+$MESS["CP_SBB_TPL_BRAND_PROPERTY"] = "Ð’Ð»Ð°ÑÑ‚Ð¸Ð²Ñ–ÑÑ‚ÑŒ Ð±Ñ€ÐµÐ½Ð´Ñ–Ð²";
 ?>

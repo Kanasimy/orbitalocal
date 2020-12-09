@@ -25,9 +25,9 @@ if (isset($templateData['TEMPLATE_THEME']))
 ?>
     <div class="col-md-3">
         <select class="selectpicker">
-            <option>Цена по возрастанию</option>
-            <option>Цена по убыванию</option>
-            <option>По популярности</option>
+            <option>Р¦РµРЅР° РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ</option>
+            <option>Р¦РµРЅР° РїРѕ СѓР±С‹РІР°РЅРёСЋ</option>
+            <option>РџРѕ РїРѕРїСѓР»СЏСЂРЅРѕСЃС‚Рё</option>
         </select>
     </div>
 <div class="bx-filter <?=$templateData["TEMPLATE_CLASS"]?> <?if ($arParams["FILTER_VIEW_MODE"] == "HORIZONTAL") echo "bx-filter-horizontal"?>">

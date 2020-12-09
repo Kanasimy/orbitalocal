@@ -3,7 +3,7 @@
 <?if (!empty($arResult)):?>
 <div class="dropdown catalog-nav__select">
     <button class="btn btn-dropdown dropdown-toggle" type="button" id="catalog-nav_select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-        Каталог
+        РљР°С‚Р°Р»РѕРі
         <span class="caret"></span>
     </button>
     <ul class="dropdown-menu" aria-labelledby="catalog-nav__select">

@@ -64,8 +64,8 @@
     BX.Sale.OrderAjaxComponentExt.isValidPayDelivery = function(item) {
         var payItem = document.getElementsByName('PAY_SYSTEM_ID'),
             deliveryItem = document.getElementsByName('DELIVERY_ID'), payBlock = BX('bx-soa-paysystem'),
-            deliveryBlock = BX('bx-soa-delivery'), deliveryErrors = 'Вы должны выбрать способ доставки',
-            payErrors = 'Вы должны выбрать способ оплаты', result = [], i = 0, count = 0;
+            deliveryBlock = BX('bx-soa-delivery'), deliveryErrors = 'Р’С‹ РґРѕР»Р¶РЅС‹ РІС‹Р±СЂР°С‚СЊ СЃРїРѕСЃРѕР± РґРѕСЃС‚Р°РІРєРё',
+            payErrors = 'Р’С‹ РґРѕР»Р¶РЅС‹ РІС‹Р±СЂР°С‚СЊ СЃРїРѕСЃРѕР± РѕРїР»Р°С‚С‹', result = [], i = 0, count = 0;
         switch(item) {
             case 'pay':
                 if(payItem.length>0){

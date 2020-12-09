@@ -1,9 +1,9 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
-<h2 class="red">ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
+<h2 class="red">РџРћРџРЈР›РЇР РќР«Р• РўРћР’РђР Р«</h2>
 <div class="row popular">
     <div class="owl-carousel owl-carousel-popular">
 <!--FIXME-->
-    <!--Убрать количество товаров в строку, не используется, TD_WIDTH, LINE_ELEMENT_COUNT-->
+    <!--РЈР±СЂР°С‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РІ СЃС‚СЂРѕРєСѓ, РЅРµ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ, TD_WIDTH, LINE_ELEMENT_COUNT-->
 	<?foreach($arResult["ROWS"] as $arItems):?>
 
 		<?foreach($arItems as $arElement):?>
@@ -126,10 +126,10 @@
                                     }
                                 }?>
 
-                                <!--вывод цены-->
+                                <!--РІС‹РІРѕРґ С†РµРЅС‹-->
 
                                 <!--span class="price">
-                                | <? print_r($arPrice[RESULT_PRICE][DISCOUNT_PRICE])?> р
+                                | <? print_r($arPrice[RESULT_PRICE][DISCOUNT_PRICE])?> СЂ
                                 </span>
 
                                 <?if(is_array($arElement["PRICE_MATRIX"])):?>

@@ -1,3 +1,3 @@
 <?
-$MESS["SALE_PROPERTIES_RECALCULATE_BASKET"] = "Ñâîéñòâà, âëèÿþùèå íà ïåðåñ÷åò êîðçèíû";
+$MESS["SALE_PROPERTIES_RECALCULATE_BASKET"] = "Ð¡Ð²Ð¾Ð¹ÑÑ‚Ð²Ð°, Ð²Ð»Ð¸ÑÑŽÑ‰Ð¸Ðµ Ð½Ð° Ð¿ÐµÑ€ÐµÑÑ‡ÐµÑ‚ ÐºÐ¾Ñ€Ð·Ð¸Ð½Ñ‹";
 ?>

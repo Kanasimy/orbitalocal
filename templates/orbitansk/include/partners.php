@@ -1,5 +1,5 @@
 <div class="col-md-12">
-    <h3 class="j">Партнеры</h3>
+    <h3 class="j">РџР°СЂС‚РЅРµСЂС‹</h3>
     <div class="partners">
 	<a class="partners__item goodyear" href="partners/goodyear.php">
             <svg>

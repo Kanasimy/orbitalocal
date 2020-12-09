@@ -55,13 +55,13 @@ else
 
 
 $timeCreateSection = MakeTimeStamp($item["TIMESTAMP_X"], "DD.MM.YYYY HH:MI:SS");
-$threeDay = time() - (3 * 24 * 60 * 60);//Три дня назад
+$threeDay = time() - (3 * 24 * 60 * 60);//РўСЂРё РґРЅСЏ РЅР°Р·Р°Рґ
 if($timeCreateSection>$threeDay) {
 	$item['STIKER'] = "new";
 }
 $db = CIBlockElement::GetList(array(), array('IBLOCK_ID'=>$arResult['IBLOCK_ID'], 'ID'=>$item['ID']), false, false, array('SHOW_COUNTER'));
 if ($i = $db->Fetch())
-	/*Количество просмотров";*/
+	/*РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕСЃРјРѕС‚СЂРѕРІ";*/
     if($i['SHOW_COUNTER']>300 && !$price['PERCENT']>0){
 		$item['STIKER']="popular";
 	}
@@ -358,12 +358,12 @@ if ($i = $db->Fetch())
 					 </span>
                     <div class="catalog-item__kod">
                         <? if($item['DISPLAY_PROPERTIES']['CML2_ARTICLE']['VALUE']){?>
-                        <div>Код: <strong>
+                        <div>РљРѕРґ: <strong>
                                 <?=$item['DISPLAY_PROPERTIES']['CML2_ARTICLE']['VALUE']?>
                             </strong>
                         </div><?}?>
-                        <? if($item['PROPERTIES']['CML2_TRAITS']['VALUE']['5']){?><div>Артикул: <?=$item['PROPERTIES']['CML2_TRAITS']['VALUE']['5']?></div><?}?>
-                        <? if($item['PROPERTIES']['CML2_BAR_CODE']['VALUE']){?><div>Штрих-Код: <?=$item['PROPERTIES']['CML2_BAR_CODE']['VALUE']?></div><?}?>
+                        <? if($item['PROPERTIES']['CML2_TRAITS']['VALUE']['5']){?><div>РђСЂС‚РёРєСѓР»: <?=$item['PROPERTIES']['CML2_TRAITS']['VALUE']['5']?></div><?}?>
+                        <? if($item['PROPERTIES']['CML2_BAR_CODE']['VALUE']){?><div>РЁС‚СЂРёС…-РљРѕРґ: <?=$item['PROPERTIES']['CML2_BAR_CODE']['VALUE']?></div><?}?>
 
                     </div>
                 </div>
@@ -371,15 +371,15 @@ if ($i = $db->Fetch())
 			<div class="col-sm-4 col-xs-6">
 				<div class="catalog-item__short-info">
 					<div class="catalog-item__short-info_min">
-						мин. кол-во
+						РјРёРЅ. РєРѕР»-РІРѕ
 						<div class="catalog-item__short-info_value">
 							<?=$item['DISPLAY_PROPERTIES']['CML2_TRAITS']['VALUE'][3] ?>
 						</div>
 					</div>
                     <div class="catalog-item__short-info_in-box">
-                        в коробке
+                        РІ РєРѕСЂРѕР±РєРµ
                         <div class="catalog-item__short-info_value">
-                            <?=$item['DISPLAY_PROPERTIES']['CML2_TRAITS']['VALUE'][4] ?> шт.
+                            <?=$item['DISPLAY_PROPERTIES']['CML2_TRAITS']['VALUE'][4] ?> С€С‚.
                         </div>
                     </div>
 				</div>
@@ -423,8 +423,8 @@ if ($i = $db->Fetch())
 			</div>
 			<div class="col-sm-4 catalog-item__mobile-row">
 				<div class="catalog-item__presence">
-                    <? if($item[CATALOG_QUANTITY]){?>в наличии<?} else {?>
-                    в пути <?}?>
+                    <? if($item[CATALOG_QUANTITY]){?>РІ РЅР°Р»РёС‡РёРё<?} else {?>
+                    РІ РїСѓС‚Рё <?}?>
 				</div>
 				<div class="catalog-item__price-mobile" data-entity="price-block">
 					<?

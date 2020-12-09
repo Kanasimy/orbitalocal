@@ -162,7 +162,7 @@ if ($arParams['HIDE_SECTION_DESCRIPTION'] !== 'Y')
 	<div class="bx-section-desc">
 		<p class="bx-section-desc-post"><?=$arResult['DESCRIPTION']?></p>
         <? if($countItem>1){?>
-        <button id="buyAllTop" class="btn catalog-header__btn btn-default">Выбранное в корзину</button>
+        <button id="buyAllTop" class="btn catalog-header__btn btn-default">Р’С‹Р±СЂР°РЅРЅРѕРµ РІ РєРѕСЂР·РёРЅСѓ</button>
 	</div>
 	<?}
 }
@@ -743,7 +743,7 @@ if ($showLazyLoad)
 }
 if($countItem>1)
     { ?>
-        <button id="buyAllBottom" class="btn catalog-header__btn btn-default">Выбранное в корзину</button>
+        <button id="buyAllBottom" class="btn catalog-header__btn btn-default">Р’С‹Р±СЂР°РЅРЅРѕРµ РІ РєРѕСЂР·РёРЅСѓ</button>
     <?
     }
     ?>

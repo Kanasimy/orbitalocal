@@ -1,9 +1,9 @@
 <?php
-//Ïîäêëþ÷àåì ÿäðî Áèòðèêñ è ãëàâíûé ìîäóëü
+//ÐŸÐ¾Ð´ÐºÐ»ÑŽÑ‡Ð°ÐµÐ¼ ÑÐ´Ñ€Ð¾ Ð‘Ð¸Ñ‚Ñ€Ð¸ÐºÑ Ð¸ Ð³Ð»Ð°Ð²Ð½Ñ‹Ð¹ Ð¼Ð¾Ð´ÑƒÐ»ÑŒ
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
 use Bitrix\Main\Loader;
 CModule::IncludeModule('iblock');
-//Ïîäêëþ÷àåì ìîäóëü sale
+//ÐŸÐ¾Ð´ÐºÐ»ÑŽÑ‡Ð°ÐµÐ¼ Ð¼Ð¾Ð´ÑƒÐ»ÑŒ sale
 Loader::includeModule("sale");
 $ID=json_decode($_POST["name"]);
 $itog='{ "activ":[';

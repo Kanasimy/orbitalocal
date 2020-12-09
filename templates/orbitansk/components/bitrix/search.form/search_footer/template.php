@@ -12,14 +12,14 @@
 	/** @var CBitrixComponent $component */
 $this->setFrameMode(true);?>
 <form action="<?=$arResult["FORM_ACTION"]?>">
-	<div>Поиск по сайту</div>
+	<div>РџРѕРёСЃРє РїРѕ СЃР°Р№С‚Сѓ</div>
 	<table>
 		<tr>
 			<td>
-				<input class="form-control" type="text" name="q"  value="" placeholder="Поиск по сайту">
+				<input class="form-control" type="text" name="q"  value="" placeholder="РџРѕРёСЃРє РїРѕ СЃР°Р№С‚Сѓ">
 			</td>
 			<td>
-				<input type="submit" name="OK" value="искать" class="btn btn-input-default btn-sm footer__input-btn">
+				<input type="submit" name="OK" value="РёСЃРєР°С‚СЊ" class="btn btn-input-default btn-sm footer__input-btn">
 			</td>
 		</tr>
 	</table>

@@ -28,8 +28,8 @@ if ($arResult['SHOW_ERRORS'] == 'Y' && $arResult['ERROR'])
             <div class="row">
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="USER_LOGIN">Ваш логин:</label>
-                        <input class="form-control" type="text" name="USER_LOGIN" value="" placeholder="Ваш логин"/>
+                        <label for="USER_LOGIN">Р’Р°С€ Р»РѕРіРёРЅ:</label>
+                        <input class="form-control" type="text" name="USER_LOGIN" value="" placeholder="Р’Р°С€ Р»РѕРіРёРЅ"/>
                         <script>
                             BX.ready(function () {
                                 var loginCookie = BX.getCookie("<?=CUtil::JSEscape($arResult["~LOGIN_COOKIE_NAME"])?>");
@@ -41,14 +41,14 @@ if ($arResult['SHOW_ERRORS'] == 'Y' && $arResult['ERROR'])
                             });
                         </script>
                     </div>
-                    <div class="form-group"><label for="USER_PASSWORD">Ваш пароль:</label>
+                    <div class="form-group"><label for="USER_PASSWORD">Р’Р°С€ РїР°СЂРѕР»СЊ:</label>
                         <input class="form-control" type="password" name="USER_PASSWORD" autocomplete="off"/></div>
                     <?
                     if ($arResult["SECURE_AUTH"]): ?>
                         <noscript>
                             <p class="text-warning bx_auth_secure">
-                                Пароль будет отправлен в открытом виде. Включите JavaScript в браузере, чтобы
-                                зашифровать пароль перед отправкой.
+                                РџР°СЂРѕР»СЊ Р±СѓРґРµС‚ РѕС‚РїСЂР°РІР»РµРЅ РІ РѕС‚РєСЂС‹С‚РѕРј РІРёРґРµ. Р’РєР»СЋС‡РёС‚Рµ JavaScript РІ Р±СЂР°СѓР·РµСЂРµ, С‡С‚РѕР±С‹
+                                Р·Р°С€РёС„СЂРѕРІР°С‚СЊ РїР°СЂРѕР»СЊ РїРµСЂРµРґ РѕС‚РїСЂР°РІРєРѕР№.
                             </p>
                         </noscript>
                         <script type="text/javascript">
@@ -59,14 +59,14 @@ if ($arResult['SHOW_ERRORS'] == 'Y' && $arResult['ERROR'])
                     if ($arResult["STORE_PASSWORD"] == "Y"): ?>
                         <ul class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
                             <li><input id="USER_REMEMBER" name="USER_REMEMBER" type="checkbox" value="Y">
-                                <label for="USER_REMEMBER">Запомнить пароль</label></li>
+                                <label for="USER_REMEMBER">Р—Р°РїРѕРјРЅРёС‚СЊ РїР°СЂРѕР»СЊ</label></li>
                         </ul>
 
 
                     <?endif ?>
                     <?
                     if ($arResult["CAPTCHA_CODE"]): ?>
-                        Введите слово на картинке:
+                        Р’РІРµРґРёС‚Рµ СЃР»РѕРІРѕ РЅР° РєР°СЂС‚РёРЅРєРµ:
                         <input type="hidden" name="captcha_sid" value="<?
                         echo $arResult["CAPTCHA_CODE"] ?>"/>
                         <img src="/bitrix/tools/captcha.php?captcha_sid=<?
@@ -77,7 +77,7 @@ if ($arResult['SHOW_ERRORS'] == 'Y' && $arResult['ERROR'])
                 </div>
                 <div class="col-sm-6"><?
                     if ($arResult["AUTH_SERVICES"]): ?>
-                        <div class="bx-auth-lbl">Войти через</div>
+                        <div class="bx-auth-lbl">Р’РѕР№С‚Рё С‡РµСЂРµР·</div>
                         <hr>
                         <?
                         $APPLICATION->IncludeComponent("bitrix:socserv.auth.form", "icons",
@@ -93,8 +93,8 @@ if ($arResult['SHOW_ERRORS'] == 'Y' && $arResult['ERROR'])
             </div>
         </div>
         <div class="modal-footer">
-            <input type="submit" name="Login" class="btn btn-primary" value="Войти"/>
-            <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+            <input type="submit" name="Login" class="btn btn-primary" value="Р’РѕР№С‚Рё"/>
+            <button type="button" class="btn btn-default" data-dismiss="modal">РћС‚РјРµРЅР°</button>
             <a href="<?= $arResult["AUTH_FORGOT_PASSWORD_URL"] ?>"
                rel="nofollow"><?= GetMessage("AUTH_FORGOT_PASSWORD_2") ?></a>
         </div>
@@ -134,7 +134,7 @@ elseif ($arResult["FORM_TYPE"] == "otp"):
 
             <?
             echo GetMessage("auth_form_comp_otp") ?>
-            <input type="text" name="USER_OTP" value="" autocomplete="off" placeholder="Ваш логин"/>
+            <input type="text" name="USER_OTP" value="" autocomplete="off" placeholder="Р’Р°С€ Р»РѕРіРёРЅ"/>
 
             <?
             if ($arResult["CAPTCHA_CODE"]):?>
@@ -153,12 +153,12 @@ elseif ($arResult["FORM_TYPE"] == "otp"):
             if ($arResult["REMEMBER_OTP"] == "Y"):?>
 
                 <input type="checkbox" id="OTP_REMEMBER_frm" name="OTP_REMEMBER" value="Y"/>
-                <label for="OTP_REMEMBER_frm">Забыли пароль?</label>
+                <label for="OTP_REMEMBER_frm">Р—Р°Р±С‹Р»Рё РїР°СЂРѕР»СЊ?</label>
 
             <?endif ?>
 
-            <input type="submit" name="Login" value="Войти"/>
-            <a href="<?= $arResult["AUTH_LOGIN_URL"] ?>" rel="nofollow">Авторизация</a>
+            <input type="submit" name="Login" value="Р’РѕР№С‚Рё"/>
+            <a href="<?= $arResult["AUTH_LOGIN_URL"] ?>" rel="nofollow">РђРІС‚РѕСЂРёР·Р°С†РёСЏ</a>
 
 
     </form>
@@ -172,14 +172,14 @@ else:
 
         <?= $arResult["USER_NAME"] ?>
         [<?= $arResult["USER_LOGIN"] ?>]
-        <a href="<?= $arResult["PROFILE_URL"] ?>" title="<?= GetMessage("AUTH_PROFILE") ?>">Мой профиль</a>
+        <a href="<?= $arResult["PROFILE_URL"] ?>" title="<?= GetMessage("AUTH_PROFILE") ?>">РњРѕР№ РїСЂРѕС„РёР»СЊ</a>
 
 
         <? foreach ($arResult["GET"] as $key => $value):?>
             <input type="hidden" name="<?= $key ?>" value="<?= $value ?>"/>
         <? endforeach ?>
         <input type="hidden" name="logout" value="yes"/>
-        <input type="submit" name="logout_butt" value="Выйти"/>
+        <input type="submit" name="logout_butt" value="Р’С‹Р№С‚Рё"/>
 
 
     </form>

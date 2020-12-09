@@ -1,5 +1,5 @@
 <?
-$MESS["SBB_DEFAULT_TEMPLATE_NAME"] = "Кошик";
-$MESS["SBB_DEFAULT_TEMPLATE_DESCRIPTION"] = "Виводить кошик поточного користувача";
-$MESS["SBB_NAME"] = "Кошик";
+$MESS["SBB_DEFAULT_TEMPLATE_NAME"] = "РљРѕС€РёРє";
+$MESS["SBB_DEFAULT_TEMPLATE_DESCRIPTION"] = "Р’РёРІРѕРґРёС‚СЊ РєРѕС€РёРє РїРѕС‚РѕС‡РЅРѕРіРѕ РєРѕСЂРёСЃС‚СѓРІР°С‡Р°";
+$MESS["SBB_NAME"] = "РљРѕС€РёРє";
 ?>

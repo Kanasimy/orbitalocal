@@ -1,4 +1,4 @@
 <?
-$MESS["CATALOG_PERSONAL_RECOM"] = "Ïåðñîíàëüíûå ðåêîìåíäàöèè";
-$MESS["CATALOG_POPULAR_IN_SECTION"] = "Ïîïóëÿðíûå â ðàçäåëå";
-$MESS["CATALOG_VIEWED"] = "Ïðîñìàòðèâàëè";
+$MESS["CATALOG_PERSONAL_RECOM"] = "ÐŸÐµÑ€ÑÐ¾Ð½Ð°Ð»ÑŒÐ½Ñ‹Ðµ Ñ€ÐµÐºÐ¾Ð¼ÐµÐ½Ð´Ð°Ñ†Ð¸Ð¸";
+$MESS["CATALOG_POPULAR_IN_SECTION"] = "ÐŸÐ¾Ð¿ÑƒÐ»ÑÑ€Ð½Ñ‹Ðµ Ð² Ñ€Ð°Ð·Ð´ÐµÐ»Ðµ";
+$MESS["CATALOG_VIEWED"] = "ÐŸÑ€Ð¾ÑÐ¼Ð°Ñ‚Ñ€Ð¸Ð²Ð°Ð»Ð¸";
