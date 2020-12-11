@@ -33,7 +33,7 @@ if (!$arPrice || count($arPrice) <= 0) {
     }
 }
 echo "<pre style='display: none'>";
-print_r($arPrice);
+print_r($arResult);
 echo "</pre>";
 
 
@@ -85,38 +85,16 @@ if ($i = $db->Fetch())
 
 		<a class="catalog-item__images" href="<?=$item['DETAIL_PAGE_URL']?>" title="<?=$imgTitle?>"
 		   data-entity="image-wrapper">
-
-			<span class="product-item-image-slider-slide-container slide" id="<?=$itemIds['PICT_SLIDER']?>"
-				  style="display: <?=($showSlider ? '' : 'none')?>;"
-				  data-slider-interval="<?=$arParams['SLIDER_INTERVAL']?>" data-slider-wrap="true">
 				<?
-				if ($showSlider)
-				{
-					foreach ($morePhoto as $key => $photo)
-					{
-						?>
-						<span class="product-item-image-slide item <?=($key == 0 ? 'active' : '')?>"
-							  style="background-image: url(<?=$photo['SRC']?>);">
-						</span>
-						<?
-					}
-				}
                 $bgImage = !empty($item['PREVIEW_PICTURE_SECOND']) ? $item['PREVIEW_PICTURE_SECOND']['SRC'] : $item['PREVIEW_PICTURE']['SRC'];
+                $smallImage = !empty($item['PREVIEW_PICTURE']) ? $item['PREVIEW_PICTURE']['SRC'] : $item['PREVIEW_PICTURE_SECOND']['SRC'];
 				?>
-			</span>
-			<span class="product-item-image-original" id="<?=$itemIds['PICT']?>"
-				  style="background-image: url(<?=$bgImage?>); display: <?=($showSlider ? 'none' : '')?>;">
-			</span>
+            <picture>
+                <source srcset="<?=$smallImage?>" media="(min-width:  768px)">
+                <source srcset="<?=$bgImage?>">
+                <img class="catalog-item__images" id="<?=$itemIds['PICT']?>" src="<?=$bgImage?>" alt="<?=$imgTitle?>">
+            </picture>
 			<?
-			if ($item['SECOND_PICT'])
-			{
-
-				?>
-				<span class="product-item-image-alternative" id="<?=$itemIds['SECOND_PICT']?>"
-					  style="background-image: url(<?=$bgImage?>); display: <?=($showSlider ? 'none' : '')?>;">
-				</span>
-				<?
-			}
 
 			if ($arParams['SHOW_DISCOUNT_PERCENT'] === 'Y')
 			{
