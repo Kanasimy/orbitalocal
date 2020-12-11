@@ -66,7 +66,6 @@ if ($i = $db->Fetch())
 		$item['STIKER']="popular";
 	}
 ?>
-<pre style="display:none">+++<?print_r($USER->GetUserGroupArray())?></pre>
 <div class="col-sm-3">
 	<div class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
 		<div class="catalog-item__checkbox">
