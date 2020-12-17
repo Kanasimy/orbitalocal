@@ -428,6 +428,7 @@
 			}
 
 			if(document.getElementById('buyAllTop')||document.getElementById('buyAllBottom')){
+				debugger;
                 BX.bind(document.getElementById('buyAllTop'), 'click', BX.delegate(this.buyBasketAll, this));
                 BX.bind(document.getElementById('buyAllBottom'), 'click', BX.delegate(this.buyBasketAll, this));
 			}
