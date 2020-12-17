@@ -7,6 +7,6 @@
                 <div class="top-line__adress">Адрес: г. Новосибирск, Петухова, 69Б</div>
                 <a href="/">
                     <svg class="top-line__logo logo">
-                        <use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#logo"></use>
+                        <use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#logo_ng"></use>
                     </svg>
                 </a>

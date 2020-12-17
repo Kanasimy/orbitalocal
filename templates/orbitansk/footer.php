@@ -153,7 +153,7 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
         <div class="col-md-3 col-sm-6 footer__logo">
             <a href="/">
                 <svg class="top-navigation__logo logo">
-                    <use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#logo"></use>
+                    <use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#logo_ng"></use>
                 </svg>
             </a>
 
@@ -167,24 +167,7 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
 		"COMPONENT_TEMPLATE" => "search_footer"
 	),
 	false
-);?>
-
-
-                <?/*$APPLICATION->IncludeComponent(
-	"bitrix:subscribe.form", 
-	"template1", 
-	array(
-		"USE_PERSONALIZATION" => "Y",
-		"PAGE" => "#SITE_DIR#personal/subscribe/subscr_edit.php",
-		"SHOW_HIDDEN" => "N",
-		"CACHE_TYPE" => "A",
-		"CACHE_TIME" => "3600",
-		"COMPONENT_TEMPLATE" => "template1",
-		"COMPOSITE_FRAME_MODE" => "A",
-		"COMPOSITE_FRAME_TYPE" => "DYNAMIC_WITH_STUB_LOADING"
-	),
-	false
-);*/?></div>
+);?></div>
         </div>
         <div class="col-md-9 col-sm-6 footer__info">
             <small >
