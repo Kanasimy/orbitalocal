@@ -32,10 +32,6 @@ if (!$arPrice || count($arPrice) <= 0) {
         $arPrice = CCatalogProduct::GetOptimalPrice($productID, $quantity, $USER->GetUserGroupArray(), $renewal);
     }
 }
-echo "<pre style='display: none'>";
-print_r($arResult);
-echo "</pre>";
-
 
 if ($haveOffers)
 {
@@ -331,7 +327,6 @@ if ($i = $db->Fetch())
 		</div>
 	</div>
 	<div class="row">
-        <pre style="display: none">price: <?php print_r($price)?></pre>
 		<div class="catalog-item__select">
 			<div class="col-sm-4 col-xs-6">
                 <div class="catalog-item__short-info">
