@@ -153,7 +153,7 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
         <div class="col-md-3 col-sm-6 footer__logo">
             <a href="/">
                 <svg class="top-navigation__logo logo">
-                    <use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#logo_ng"></use>
+                    <use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#logo"></use>
                 </svg>
             </a>
 

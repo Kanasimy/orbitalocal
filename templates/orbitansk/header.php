@@ -20,7 +20,7 @@ IncludeTemplateLangFile(__FILE__);
 	?>
     <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(47080869, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/47080869" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 </head>
-<body class="ng">
+<body>
 <!--декор-->
 <div class="elka"></div>
 <?$APPLICATION->ShowPanel()?>
@@ -28,7 +28,7 @@ IncludeTemplateLangFile(__FILE__);
 <?endif?>
 <div class="container">
 <header>
-        <div class="row top-line ng">
+        <div class="row top-line">
         <div class="col-md-8 col-lg-9">
 		<!--Contacts-->
 		<?$APPLICATION->IncludeComponent(
@@ -57,7 +57,7 @@ IncludeTemplateLangFile(__FILE__);
             <div class="col-md-3">
                 <a href="/">
                     <svg class="top-navigation__logo logo">
-                    <use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#logo_ng"></use>
+                    <use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#logo"></use>
                 </svg>
                 </a>
             </div>
