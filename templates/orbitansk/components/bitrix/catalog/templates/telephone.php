@@ -1,0 +1,3 @@
+<div class="bx-header-phone-block"><i class="bx-header-phone-icon"></i> <span class="bx-header-phone-number">8 (495) 212 75 06</span></div>
+ <div class="bx-header-phone-block"><i class="bx-header-phone-icon"></i><span class="bx-header-phone-number">8 (495) 212 75 06</span></div>
+<div class="bx-header-phone-block"><i class="bx-header-phone-icon"></i> <span class="bx-header-phone-number">8 (495) 212 75 06</span></div>

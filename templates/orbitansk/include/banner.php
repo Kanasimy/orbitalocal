@@ -8,30 +8,27 @@
 if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
 <div class="row">
 	<div class="owl-carousel owl-carousel-home">
-        <div class="home-banner" style="background:#f3f3f5;">
-            <div class="col-md-6 home-banner__description">
-                <h2 class="home-banner__head-discount home-banner__head">С днем Защитника Отечества!</h2>
-                <hr class="home-banner__dividing">
-                <div class="home-banner__text">
-                    <p>Будьте непобедимы, сильны, удачливы, здоровы. <br>
-                        Пусть любые преграды покоряются вам, <br>
-                        трудности отступают, а дела решаются легко!<br>
-                        Желаем исполнения задуманных планов и достижения целей!</p>
-                </div>
-            </div>
-            <div class="col-md-5  col-md-offset-1">
-                <picture>
-                    <source media="(min-width: 400px) and (max-width: 1000px), (min-width: 1330px)"
-                            srcset="local/images/banner/23-2021-tab.webp 585w"/>
-                    <source media="(max-width: 400px)" srcset="local/images/banner/23-2021-mobile.webp 330w"/>
-                    <source media="(min-width: 400px) and (max-width: 1000px), (min-width: 1330px)"
-                            srcset="local/images/banner/23-2021-tab.jpg 585w"/>
-                    <source media="(max-width: 400px)" srcset="local/images/banner/23-2021-mobile.jpg 330w"/>
-                    <source srcset="local/images/banner/23-2021-mobile.webp"/>
-                    <source srcset="local/images/banner/23-2021-mobile.jpg"/>
-                    <img src="local/images/banner/23-2021-tab.jpg" alt="Поздравление с Днем Защитника Отечества">
-                </picture>
-            </div>
+        <div class="home-banner">
+            <picture>
+                <source media="(min-width: 1330px)" srcset="local/images/banner/desctop-1m-2021.jpg 1340w" />
+                <source media="(min-width: 980px)" srcset="local/images/banner/tablet-1m-2021.jpg 1000w" />
+                <source media="(min-width: 750px)" srcset="local/images/banner/mobile-1m-2021.jpg 768w" />
+                <source srcset="local/images/banner/mobile-1m-2021.jpg" />
+                <img src="local/images/banner/desctop-1m-2021.jpg" alt="Поздравление с 1 мая!">
+            </picture>
+        </div>
+        <div class="home-banner">
+            <picture>
+                <source media="(min-width: 1330px)" srcset="local/images/banner/sale.webp 1340w" />
+                <source media="(min-width: 980px)" srcset="local/images/banner/table-sale.webp 1000w" />
+                <source media="(min-width: 750px)" srcset="local/images/banner/mobile-sale.webp 768w" />
+                <source media="(min-width: 1330px)" srcset="local/images/banner/sale.jpg 1340w" />
+                <source media="(min-width: 980px)" srcset="local/images/banner/table-sale.jpg 1000w" />
+                <source media="(min-width: 750px)" srcset="local/images/banner/mobile-sale.jpg 768w" />
+                <source srcset="local/images/banner/mobile-sale.webp" />
+                <source srcset="local/images/banner/mobile-sale.jpg" />
+                <img src="local/images/banner/sale.jpg" alt="Распродажа, скидки до 70%. Автохимия, инструменты">
+            </picture>
         </div>
         <div class="home-banner tpv">
             <div class="col-md-4 home-banner__description">
