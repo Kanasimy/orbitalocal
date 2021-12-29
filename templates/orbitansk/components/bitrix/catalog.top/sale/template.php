@@ -20,7 +20,7 @@
                     </svg>
                 </div>
 					<?if(is_array($arElement["DETAIL_PICTURE"])):?>
-                            <img class="popular__image" src="<?=$arElement["DETAIL_PICTURE"]["SRC"]?>" alt="<?=$arElement["NAME"]?>" title="<?=$arElement["NAME"]?>" />
+                            <img class="popular__image" src="<?=$arElement["DETAIL_PICTURE"]["SRC"]?>" alt="<?=$arElement["NAME"]?>" title="<?=$arElement["NAME"]?>" width="100%" loading="lazy" />
 					<?endif?>
 
                     <div class="popular__header">

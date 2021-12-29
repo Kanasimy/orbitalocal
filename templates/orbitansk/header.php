@@ -10,6 +10,9 @@ IncludeTemplateLangFile(__FILE__);
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <?$APPLICATION->ShowMeta("keywords")?>
 	<?$APPLICATION->ShowMeta("description")?>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap" as="style">
     <link rel="icon" href="../../favicon.ico">
     <title><?$APPLICATION->ShowTitle()?></title>
 	<?
@@ -18,9 +21,9 @@ IncludeTemplateLangFile(__FILE__);
 	$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH.'/styles/main.css');
 	$APPLICATION->SetAdditionalCSS('https://fonts.googleapis.com/css?family=Roboto:400,700|Ubuntu+Condensed');
 	?>
-    <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(47080869, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/47080869" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+    <!-- Yandex.Metrika counter  <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(47080869, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/47080869" style="position:absolute; left:-9999px;" alt="" /></div></noscript>  /Yandex.Metrika counter -->
 </head>
-<body>
+<body class="ng">
 <!--декор-->
 <div class="elka"></div>
 <?$APPLICATION->ShowPanel()?>
@@ -28,7 +31,7 @@ IncludeTemplateLangFile(__FILE__);
 <?endif?>
 <div class="container">
 <header>
-        <div class="row top-line">
+        <div class="row top-line ng">
         <div class="col-md-8 col-lg-9">
 		<!--Contacts-->
 		<?$APPLICATION->IncludeComponent(
@@ -57,14 +60,14 @@ IncludeTemplateLangFile(__FILE__);
             <div class="col-md-3">
                 <a href="/">
                     <svg class="top-navigation__logo logo">
-                    <use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#logo"></use>
+                    <use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#logo_ng"></use>
                 </svg>
                 </a>
             </div>
             <div class="col-md-6 col-sm-9">
       <?$APPLICATION->IncludeComponent(
-	"bitrix:search.form", 
-	"search_header_catalog", 
+	"bitrix:search.form",
+	"search_header_catalog",
 	array(
 		"USE_SUGGEST" => "Y",
 		"PAGE" => "#SITE_DIR#catalog/search.php",
@@ -116,8 +119,8 @@ IncludeTemplateLangFile(__FILE__);
         <div class="row">
             <div class="col-md-9 col-md-offset-3">
                 <?$APPLICATION->IncludeComponent(
-	"bitrix:menu", 
-	"top", 
+	"bitrix:menu",
+	"top",
 	array(
 		"ROOT_MENU_TYPE" => "top",
 		"MENU_CACHE_TYPE" => "Y",
@@ -154,8 +157,8 @@ IncludeTemplateLangFile(__FILE__);
 <section class="content">
     <div class="row">
         <?$APPLICATION->IncludeComponent(
-	"bitrix:breadcrumb", 
-	"top", 
+	"bitrix:breadcrumb",
+	"top",
 	array(
 		"START_FROM" => "0",
 		"PATH" => "/",

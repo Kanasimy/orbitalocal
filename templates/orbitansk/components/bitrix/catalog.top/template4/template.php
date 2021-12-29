@@ -19,7 +19,15 @@
                     </svg>
                 </div>
 					<?if(is_array($arElement["DETAIL_PICTURE"])):?>
-                            <img class="popular__image" src="<?=$arElement["DETAIL_PICTURE"]["SRC"]?>" alt="<?=$arElement["NAME"]?>" title="<?=$arElement["NAME"]?>" />
+
+                        <picture>
+                            <!--<source media="(min-width: 1330px)" srcset="<?=$arElement["PREVIEW_PICTURE"]["SRC"]?> 1340w" />
+                            <source media="(min-width: 980px)" srcset="<?=$arElement["PREVIEW_PICTURE"]["SRC"]?> 1000w" />
+                            <source media="(min-width: 750px)" srcset="<?=$arElement["DETAIL_PICTURE"]["SRC"]?> 768w" />-->
+                            <source srcset="<?=$arElement["DETAIL_PICTURE"]["SRC"]?>" />
+                            <img class="popular__image" src="<?=$arElement["DETAIL_PICTURE"]["SRC"]?>" alt="<?=$arElement["NAME"]?>" title="<?=$arElement["NAME"]?>" width="100%" loading="lazy"/>
+                        </picture>
+
 					<?endif?>
 
                     <div class="popular__header">
@@ -41,7 +49,7 @@
                             <?endforeach?>
                             <?foreach($arOffer["PRICES"] as $code=>$arPrice):?>
                                 <?if($arPrice["CAN_ACCESS"]):?>
-                                    <?=$arResult["PRICES"][$code]["TITLE"];?>++++:&nbsp;
+                                    <?=$arResult["PRICES"][$code]["TITLE"];?>:&nbsp;
                                         <?if($arPrice["DISCOUNT_VALUE"] < $arPrice["VALUE"]):?>
                                             <?=$arPrice["PRINT_VALUE"]?><?=$arPrice["PRINT_DISCOUNT_VALUE"]?>
                                         <?else:?>

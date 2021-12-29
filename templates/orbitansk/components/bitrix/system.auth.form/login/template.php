@@ -22,7 +22,7 @@ if ($arResult['SHOW_ERRORS'] == 'Y' && $arResult['ERROR'])
     <svg class="icons icon-user">
         <use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#user"></use>
     </svg>
-    <a style="color:#fff" href="/auth/index.php">Регистрация</a></div>
+    <a style="color:#fff" href="<?=$arResult["REGISTER_URL"]?>">Регистрация</a></div>
 </div>
     <? else:
     ?>

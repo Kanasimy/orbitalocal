@@ -8,8 +8,8 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
             <?if($APPLICATION->GetCurPage() == "/index.php"):?>
                 <div class="news col-md-12 col-sm-6">
                     <?$APPLICATION->IncludeComponent(
-	"bitrix:news.line", 
-	"news-right", 
+	"bitrix:news.line",
+	"news-right",
 	array(
 		"IBLOCK_TYPE" => "news",
 		"IBLOCKS" => array(
@@ -88,8 +88,8 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
             <h4 class="footer__header">О нас</h4>
             <nav>
                 <?$APPLICATION->IncludeComponent(
-	"bitrix:menu", 
-	"bottom", 
+	"bitrix:menu",
+	"bottom",
 	array(
 		"ROOT_MENU_TYPE" => "bottom",
 		"MAX_LEVEL" => "1",
@@ -112,8 +112,8 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
             <h4 class="footer__header">Личный кабинет</h4>
             <nav>
                 <?$APPLICATION->IncludeComponent(
-	"bitrix:menu", 
-	"bottom", 
+	"bitrix:menu",
+	"bottom",
 	array(
 		"ROOT_MENU_TYPE" => "bottom_2",
 		"MAX_LEVEL" => "1",
@@ -153,14 +153,14 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
         <div class="col-md-3 col-sm-6 footer__logo">
             <a href="/">
                 <svg class="top-navigation__logo logo">
-                    <use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#logo"></use>
+                    <use xlink:href="<?=SITE_TEMPLATE_PATH?>/images/sprite.svg#logo_ng"></use>
                 </svg>
             </a>
 
             <div class="footer__delivery xform-inline">
 			 <?$APPLICATION->IncludeComponent(
-	"bitrix:search.form", 
-	"search_footer", 
+	"bitrix:search.form",
+	"search_footer",
 	array(
 		"USE_SUGGEST" => "Y",
 		"PAGE" => "#SITE_DIR#search/index.php",
@@ -198,8 +198,8 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
             </div>
             <div class="modal-body">
                 <?$APPLICATION->IncludeComponent(
-	"bitrix:main.register", 
-	".default", 
+	"bitrix:main.register",
+	".default",
 	array(
 		"AUTH" => "Y",
 		"REQUIRED_FIELDS" => array(
@@ -246,10 +246,10 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
     </div>
 </div>
 <!-- End Modal -->
-<!-- BEGIN JIVOSITE CODE {literal} -->
+<!-- BEGIN JIVOSITE CODE {literal}
 <script type='text/javascript'>
     (function(){ var widget_id = '7iNCXC8Z5w';var d=document;var w=window;function l(){
         var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
-<!-- {/literal} END JIVOSITE CODE -->
+{/literal} END JIVOSITE CODE -->
 </body>
 </html>
