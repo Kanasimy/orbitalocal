@@ -6,39 +6,6 @@ if($dir['1']!=='catalog'&& $dir['1']!=='personal'):?>
     <div class="col-md-3">
         <div class="sidebar row">
             <?if($APPLICATION->GetCurPage() == "/index.php"):?>
-                <div class="news col-md-12 col-sm-6">
-                    <?$APPLICATION->IncludeComponent(
-	"bitrix:news.line",
-	"news-right",
-	array(
-		"IBLOCK_TYPE" => "news",
-		"IBLOCKS" => array(
-			0 => "3",
-		),
-		"NEWS_COUNT" => "3",
-		"FIELD_CODE" => array(
-			0 => "ID",
-			1 => "CODE",
-			2 => "PREVIEW_TEXT",
-			3 => "",
-		),
-		"SORT_BY1" => "ACTIVE_FROM",
-		"SORT_ORDER1" => "DESC",
-		"SORT_BY2" => "SORT",
-		"SORT_ORDER2" => "ASC",
-		"DETAIL_URL" => "/news/#SECTION_CODE#/#ELEMENT_CODE#/",
-		"ACTIVE_DATE_FORMAT" => "d.m",
-		"CACHE_TYPE" => "A",
-		"CACHE_TIME" => "300",
-		"CACHE_GROUPS" => "Y",
-		"COMPONENT_TEMPLATE" => "news-right",
-		"COMPOSITE_FRAME_MODE" => "A",
-		"COMPOSITE_FRAME_TYPE" => "AUTO"
-	),
-	false
-);?>
-                </div>
-
                 <div class="col-md-12 col-sm-6">
                     <?$APPLICATION->IncludeComponent(
                         "bitrix:main.include",
